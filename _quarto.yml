@@ -1,0 +1,33 @@
+# all [bracketed] values are placeholders — fill in before publishing.
+#   [semester]        — semester label shown in the navbar
+#   [discord_url]     — discord invite link
+#   [gradescope_url]  — gradescope course url
+
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - psets/starter_code
+
+format:
+  html:
+    theme: [cosmo, custom_theme.scss]
+    css: styles.css
+    toc: false
+    include-in-header: header.html
+    page-layout: full
+    math: mathjax
+
+website:
+  favicon: favicon.ico
+  navbar:
+    css: styles.css
+    title: "[SEMESTER]"
+    search: false
+    left:
+      - text: "Discord"
+        href: "[DISCORD_URL]"
+      - text: "Gradescope"
+        href: "[GRADESCOPE_URL]"
+      - text: "Syllabus"
+        href: syllabus.html

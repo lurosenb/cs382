@@ -1,0 +1,109 @@
+---
+# all [bracketed] values are placeholders — fill in before publishing.
+#   [course_title]     — page title and h1 heading
+#   [course_tagline]   — one-sentence description shown below the title
+#   [instructor_name]  — full name linked in the info block
+#   [instructor_url]   — personal or faculty page url
+#   [preferred_name]   — name students use in class
+#   [meeting_times]    — e.g. "mondays, wednesdays, fridays from 10:00 to 10:50am"
+#   [room]             — e.g. "bronfman 106"
+#   [office_hours]     — e.g. "tuesdays and thursdays from 1:00 to 2:30pm"
+#   [office_location]  — e.g. "adams 213"
+#   [pset_policy]      — collaboration policy for problem sets
+#   [quiz_policy]      — quiz format and cadence
+#   [exam_policy]      — exam format and materials allowed
+#   [project_policy]   — final project overview
+#   [resources]        — textbook or course notes attribution
+title: "**[COURSE_TITLE]**"
+output:
+  html_document:
+    css: styles.css
+---
+
+<center>
+*[COURSE_TAGLINE]*
+</center>
+
+<br>
+
+<div class="row">
+  <div class="col" markdown="1">
+
+  **Instructor**: [[INSTRUCTOR_NAME]]([INSTRUCTOR_URL]). Please call me [PREFERRED_NAME].
+
+  **Class Times**: [MEETING_TIMES] in [ROOM].
+
+  **Office Hours**: [OFFICE_HOURS] in [OFFICE_LOCATION].
+
+  **Problem Sets**: [PSET_POLICY]
+
+  </div>
+  <div class="col" markdown="1">
+
+  **Quizzes**: [QUIZ_POLICY]
+
+  **Exams**: [EXAM_POLICY]
+
+  **Project**: [PROJECT_POLICY]
+
+  </div>
+</div>
+
+**Resources**: [RESOURCES]
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td>Week</td>
+    <td>Tuesday</td>
+    <td>Thursday</td>
+    <td>Slides</td>
+    <td>Assignments</td>
+  </tr>
+
+  <!-- unit divider — add one per unit, remove if the course has no units -->
+  <tr class="section-header">
+    <td colspan="5">[Unit 1 Title]</td>
+  </tr>
+
+  <!-- regular lecture week -->
+  <tr>
+    <td>Week 1 ([DATE] and [DATE])</td>
+    <td><a href="notes/00_template_lecture.html">Sample Lecture</a></td>
+    <td><a href="notes/00_template_lecture.html">Sample Lecture</a></td>
+    <td><a href="slides/Week01.pdf">Slides</a></td>
+    <td><a href="[PSET_URL]">Problem Set 1</a></td>
+  </tr>
+
+  <!-- midterm week -->
+  <tr>
+    <td>Week N ([DATE] and [DATE])</td>
+    <td><a href="notes/0N_[TOPIC].html">[Lecture Title]</a></td>
+    <td><i>Midterm Exam</i></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- break week -->
+  <tr>
+    <td>Week N ([DATE] and [DATE])</td>
+    <td><i>[Break Name] (No Class)</i></td>
+    <td><i>[Break Name] (No Class)</i></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- unit divider — duplicate section as needed -->
+  <tr class="section-header">
+    <td colspan="5">[Unit 2 Title]</td>
+  </tr>
+
+  <!-- final week -->
+  <tr>
+    <td>Week N ([DATE] and [DATE])</td>
+    <td><i>Project Preparation</i></td>
+    <td><i>[Reading Day / Finals / etc.] (No Class)</i></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>

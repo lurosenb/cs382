@@ -1,0 +1,78 @@
+---
+# all [bracketed] values are placeholders — fill in before publishing.
+#   [course_description]   — paragraph describing course content and goals
+#   [prerequisites]        — prerequisite courses or knowledge
+#   [meeting_times]        — e.g. "tuesdays and thursdays from 2:45 to 4:00pm"
+#   [room]                 — e.g. "kravis 164"
+#   [resources]            — textbook or notes attribution
+#   [communication_tool]   — e.g. "discord", "ed discussion", "piazza"
+#   [communication_url]    — link to the communication platform
+#   [gradescope_url]       — gradescope course link
+#   [pset_points]          — point value for problem sets
+#   [quiz_points]          — point value for quizzes
+#   [exam_points]          — total point value for exams
+#   [project_points]       — point value for the project
+#   [late_policy]          — late work policy
+#   [accommodations_email] — accessibility office email
+title: "**Syllabus**"
+output:
+  html_document:
+    css: styles.css
+---
+
+**Course Description:**
+[COURSE_DESCRIPTION]
+
+**Prerequisites:** [PREREQUISITES]
+
+**Structure:** [MEETING_TIMES] in [ROOM].
+
+**Resources**: [RESOURCES]
+
+**Electronic Devices**: Phones and computers are distracting to you and your peers. Please do not use them during class.
+
+**Communication**: Please post all course-related questions on [[COMMUNICATION_TOOL]]([COMMUNICATION_URL]), either in the appropriate channel or as a direct message to me.
+
+### **Grading**
+
+Your grade in the class will be based on the number of points $P$ that you earn. You will receive an A if $P \geq 93$, an A- if $93 > P \geq 90$, a B+ if $90 > P \geq 87$, and so on. You may earn points through the following assignments:
+
+- **Problem Sets ([PSET_POINTS] Points):**
+[Describe problem set structure, collaboration policy, and how they are graded.]
+
+- **Quizzes ([QUIZ_POINTS] Points):**
+[Describe quiz format — when they happen, what they cover, how long they are, how they are graded.]
+
+- **Exams ([EXAM_POINTS] Points):**
+[Describe exam format — in-person vs. take-home, what materials are allowed, what is covered.]
+
+- **Project ([PROJECT_POINTS] Points):**
+[Describe the final project — topic selection, deliverables (code, report, presentation), group policy.]
+
+- **Extra Credit:**
+[Optional: describe any extra credit opportunities.]
+
+**Late Policy:**
+[LATE_POLICY]
+
+### **Honor Code**
+
+Academic integrity is an important part of your learning experience. You are welcome to use online material and discuss problems with others, but you must explicitly acknowledge any outside resources (websites, people, or LLMs) on the work you submit.
+
+**Large Language Models:** LLMs are a powerful tool. However, while they are very good at producing human-like text, they have no inherent sense of correctness. You may use LLMs (as detailed below) but you are wholly responsible for the material you submit.
+
+You may use LLMs for:
+
+- Implementing short blocks of code that you can easily check.
+- Answering simple questions whose answers you can easily verify.
+
+Do not use LLMs for:
+
+- Implementing extensive blocks of code or code that you don't understand.
+- Answering complicated questions (like those on the problem sets) that you cannot easily verify.
+
+Ultimately, the point of the assignments is for you to practice the concepts. If you use an LLM in lieu of practice, you deny yourself the chance to learn.
+
+### **Academic Accommodations**
+
+If you have a Letter of Accommodation, please contact me as early in the semester as possible. If you do not have a Letter of Accommodation and you believe you are eligible, please reach out to Accessibility Services at [[ACCOMMODATIONS_EMAIL]](mailto:[ACCOMMODATIONS_EMAIL]).

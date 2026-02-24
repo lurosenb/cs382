@@ -1,0 +1,78 @@
+---
+# all [bracketed] values are placeholders — fill in before publishing.
+#   [lecture_title]  — page title and h1 heading
+#   sections below can be added, removed, or reordered as needed
+title: "**[LECTURE_TITLE]**"
+format:
+  html:
+    toc: true
+    math: mathjax
+---
+
+## Introduction
+
+[Motivate the topic. What problem is being solved? Why does it matter?
+Link to real-world examples or prior lecture concepts as appropriate.]
+
+## Background
+
+[Review any prerequisite definitions or results needed before the main content.]
+
+### Key Definition
+
+Let $X$ be [a random variable / a matrix / etc.]. We define [TERM] as:
+
+$$
+[EQUATION]
+$$
+
+## Main Result
+
+**Theorem ([THEOREM_NAME]):** [State the theorem precisely.]
+
+*Proof sketch:* [Summarize the key ideas without full rigor, or use the proof block below.]
+
+<div class="proof-block">
+<details>
+<summary>Proof</summary>
+
+[Full proof here. Use `$...$` for inline math and `$$...$$` for display math.]
+
+We have:
+$$
+[EQUATION_STEP_1] = [EQUATION_STEP_2]
+$$
+
+[Continue the argument...]
+
+$\square$
+
+</details>
+</div>
+
+## Algorithm
+
+[Describe the algorithm in pseudocode or prose.]
+
+**Input:** [what the algorithm takes]
+**Output:** [what it returns]
+
+1. [Step 1]
+2. [Step 2]
+3. Return [OUTPUT]
+
+**Complexity:** [Time and/or space complexity with brief justification.]
+
+## Example / Illustration
+
+<img src="images/[IMAGE_FILENAME].png" class="responsive-img" alt="[ALT_TEXT]">
+
+[Caption or explanation of the figure.]
+
+## Summary
+
+[Bullet-point recap of the main takeaways from this lecture.]
+
+- [Takeaway 1]
+- [Takeaway 2]
+- [Takeaway 3]

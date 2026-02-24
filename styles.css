@@ -1,0 +1,126 @@
+/* --brand-color drives the navbar, table headers, and section dividers.
+   currently set to williams college (purple #362061, gold #fecc06). */
+:root {
+  --brand-color: #362061;        /* primary — navbar and table header background */
+  --brand-color-light: #5a3d8a;  /* secondary — section-header row background */
+  --brand-color-tint: #ede8f5;   /* tint — alternating table row background */
+  --brand-accent: #FECC06;       /* accent — proof block border */
+}
+
+/* ── Layout ─────────────────────────────────────────────────────────── */
+.container {
+  max-width: 100% !important;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+/* ── Navbar ─────────────────────────────────────────────────────────── */
+.navbar {
+  background-color: var(--brand-color);
+}
+
+.navbar .navbar-brand, .nav-link {
+  color: #FFFFFF;
+}
+
+/* ── Schedule table ─────────────────────────────────────────────────── */
+table, th, td {
+  border: 2px solid;
+  border-color: #FFFFFF;
+}
+
+table tr:first-of-type {
+  color: white;
+  background-color: var(--brand-color);
+  font-weight: bold;
+}
+
+tr:nth-child(even), th {
+  background-color: var(--brand-color-tint);
+}
+
+table td, table th {
+  padding-left: 10px;
+}
+
+.section-header {
+  background-color: var(--brand-color-light) !important;
+  text-align: center;
+  font-weight: bold;
+  color: white !important;
+}
+
+/* ── Typography ─────────────────────────────────────────────────────── */
+h1 {
+  text-align: center;
+}
+
+/* ── Two-column info block (index.qmd) ──────────────────────────────── */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col {
+  flex: 1;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+
+/* ── Images ─────────────────────────────────────────────────────────── */
+.responsive-img {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .responsive-img {
+    width: 700px;
+  }
+}
+
+/* ── MathJax (scrollable block equations on mobile) ─────────────────── */
+mjx-container[jax="SVG"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: block;
+  max-width: 100%;
+}
+
+mjx-container[jax="SVG"] > svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── Collapsible proof blocks ───────────────────────────────────────── */
+.proof-block details {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid var(--brand-accent);
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.proof-block summary {
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+}
+
+.proof-block summary::-webkit-details-marker {
+  display: none;
+}
+
+.proof-block summary::before {
+  content: "▶ ";
+  transition: transform 0.2s ease;
+}
+
+.proof-block[open] summary::before,
+.proof-block details[open] summary::before {
+  transform: rotate(90deg);
+  display: inline-block;
+}

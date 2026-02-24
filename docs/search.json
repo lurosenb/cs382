@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course Description: [COURSE_DESCRIPTION]\nPrerequisites: [PREREQUISITES]\nStructure: [MEETING_TIMES] in [ROOM].\nResources: [RESOURCES]\nElectronic Devices: Phones and computers are distracting to you and your peers. Please do not use them during class.\nCommunication: Please post all course-related questions on [COMMUNICATION_TOOL], either in the appropriate channel or as a direct message to me.\n\nGrading\nYour grade in the class will be based on the number of points \\(P\\) that you earn. You will receive an A if \\(P \\geq 93\\), an A- if \\(93 &gt; P \\geq 90\\), a B+ if \\(90 &gt; P \\geq 87\\), and so on. You may earn points through the following assignments:\n\nProblem Sets ([PSET_POINTS] Points): [Describe problem set structure, collaboration policy, and how they are graded.]\nQuizzes ([QUIZ_POINTS] Points): [Describe quiz format — when they happen, what they cover, how long they are, how they are graded.]\nExams ([EXAM_POINTS] Points): [Describe exam format — in-person vs. take-home, what materials are allowed, what is covered.]\nProject ([PROJECT_POINTS] Points): [Describe the final project — topic selection, deliverables (code, report, presentation), group policy.]\nExtra Credit: [Optional: describe any extra credit opportunities.]\n\nLate Policy: [LATE_POLICY]\n\n\nHonor Code\nAcademic integrity is an important part of your learning experience. You are welcome to use online material and discuss problems with others, but you must explicitly acknowledge any outside resources (websites, people, or LLMs) on the work you submit.\nLarge Language Models: LLMs are a powerful tool. However, while they are very good at producing human-like text, they have no inherent sense of correctness. You may use LLMs (as detailed below) but you are wholly responsible for the material you submit.\nYou may use LLMs for:\n\nImplementing short blocks of code that you can easily check.\nAnswering simple questions whose answers you can easily verify.\n\nDo not use LLMs for:\n\nImplementing extensive blocks of code or code that you don’t understand.\nAnswering complicated questions (like those on the problem sets) that you cannot easily verify.\n\nUltimately, the point of the assignments is for you to practice the concepts. If you use an LLM in lieu of practice, you deny yourself the chance to learn.\n\n\nAcademic Accommodations\nIf you have a Letter of Accommodation, please contact me as early in the semester as possible. If you do not have a Letter of Accommodation and you believe you are eligible, please reach out to Accessibility Services at [ACCOMMODATIONS_EMAIL]."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "[COURSE_TITLE]",
+    "section": "",
+    "text": "[COURSE_TAGLINE]\n\n\n\n\nInstructor: [INSTRUCTOR_NAME]. Please call me [PREFERRED_NAME].\nClass Times: [MEETING_TIMES] in [ROOM].\nOffice Hours: [OFFICE_HOURS] in [OFFICE_LOCATION].\nProblem Sets: [PSET_POLICY]\n\n\nQuizzes: [QUIZ_POLICY]\nExams: [EXAM_POLICY]\nProject: [PROJECT_POLICY]\n\n\nResources: [RESOURCES]\n\n\n\nWeek\n\n\nTuesday\n\n\nThursday\n\n\nSlides\n\n\nAssignments\n\n\n\n\n\n[Unit 1 Title]\n\n\n\n\n\nWeek 1 ([DATE] and [DATE])\n\n\nSample Lecture\n\n\nSample Lecture\n\n\nSlides\n\n\nProblem Set 1\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\n[Lecture Title]\n\n\nMidterm Exam\n\n\n\n\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\n[Break Name] (No Class)\n\n\n[Break Name] (No Class)\n\n\n\n\n\n\n\n\n\n[Unit 2 Title]\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\nProject Preparation\n\n\n[Reading Day / Finals / etc.] (No Class)"
+  },
+  {
+    "objectID": "notes/00_template_lecture.html",
+    "href": "notes/00_template_lecture.html",
+    "title": "[LECTURE_TITLE]",
+    "section": "",
+    "text": "[Motivate the topic. What problem is being solved? Why does it matter? Link to real-world examples or prior lecture concepts as appropriate.]"
+  },
+  {
+    "objectID": "notes/00_template_lecture.html#introduction",
+    "href": "notes/00_template_lecture.html#introduction",
+    "title": "[LECTURE_TITLE]",
+    "section": "",
+    "text": "[Motivate the topic. What problem is being solved? Why does it matter? Link to real-world examples or prior lecture concepts as appropriate.]"
+  },
+  {
+    "objectID": "notes/00_template_lecture.html#background",
+    "href": "notes/00_template_lecture.html#background",
+    "title": "[LECTURE_TITLE]",
+    "section": "Background",
+    "text": "Background\n[Review any prerequisite definitions or results needed before the main content.]\n\nKey Definition\nLet \\(X\\) be [a random variable / a matrix / etc.]. We define [TERM] as:\n\\[\n[EQUATION]\n\\]"
+  },
+  {
+    "objectID": "notes/00_template_lecture.html#main-result",
+    "href": "notes/00_template_lecture.html#main-result",
+    "title": "[LECTURE_TITLE]",
+    "section": "Main Result",
+    "text": "Main Result\nTheorem ([THEOREM_NAME]): [State the theorem precisely.]\nProof sketch: [Summarize the key ideas without full rigor, or use the proof block below.]\n\n\n\nProof\n\n[Full proof here. Use $...$ for inline math and $$...$$ for display math.]\nWe have: \\[\n[EQUATION_STEP_1] = [EQUATION_STEP_2]\n\\]\n[Continue the argument…]\n\\(\\square\\)"
+  },
+  {
+    "objectID": "notes/00_template_lecture.html#algorithm",
+    "href": "notes/00_template_lecture.html#algorithm",
+    "title": "[LECTURE_TITLE]",
+    "section": "Algorithm",
+    "text": "Algorithm\n[Describe the algorithm in pseudocode or prose.]\nInput: [what the algorithm takes] Output: [what it returns]\n\n[Step 1]\n[Step 2]\nReturn [OUTPUT]\n\nComplexity: [Time and/or space complexity with brief justification.]"
+  },
+  {
+    "objectID": "notes/00_template_lecture.html#example-illustration",
+    "href": "notes/00_template_lecture.html#example-illustration",
+    "title": "[LECTURE_TITLE]",
+    "section": "Example / Illustration",
+    "text": "Example / Illustration\n\n[Caption or explanation of the figure.]"
+  },
+  {
+    "objectID": "notes/00_template_lecture.html#summary",
+    "href": "notes/00_template_lecture.html#summary",
+    "title": "[LECTURE_TITLE]",
+    "section": "Summary",
+    "text": "Summary\n[Bullet-point recap of the main takeaways from this lecture.]\n\n[Takeaway 1]\n[Takeaway 2]\n[Takeaway 3]"
+  }
+]
