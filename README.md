@@ -1,4 +1,6 @@
-# course site template
+# credit to [R. Teal Witter](https://www.rtealwitter.com/) for his quarto know-how, that this course template is based on (see his great [data mining](https://www.rtealwitter.com/rads2026/) course, for example!)
+
+## course site template
 
 a quarto-based course website. fork or copy this folder for each new course offering.
 
