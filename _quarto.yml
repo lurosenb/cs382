@@ -31,3 +31,7 @@ website:
         href: "[GRADESCOPE_URL]"
       - text: "Syllabus"
         href: syllabus.html
+      - text: "Labs"
+        href: labs.html
+      - text: "Project"
+        href: project.html

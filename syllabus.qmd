@@ -1,78 +1,112 @@
 ---
-# all [bracketed] values are placeholders — fill in before publishing.
-#   [course_description]   — paragraph describing course content and goals
-#   [prerequisites]        — prerequisite courses or knowledge
-#   [meeting_times]        — e.g. "tuesdays and thursdays from 2:45 to 4:00pm"
-#   [room]                 — e.g. "kravis 164"
-#   [resources]            — textbook or notes attribution
-#   [communication_tool]   — e.g. "discord", "ed discussion", "piazza"
-#   [communication_url]    — link to the communication platform
-#   [gradescope_url]       — gradescope course link
-#   [pset_points]          — point value for problem sets
-#   [quiz_points]          — point value for quizzes
-#   [exam_points]          — total point value for exams
-#   [project_points]       — point value for the project
-#   [late_policy]          — late work policy
-#   [accommodations_email] — accessibility office email
+# remaining placeholders:
+#   [PREREQUISITES]        — prerequisite courses or knowledge
+#   [MEETING_TIMES]        — e.g. "mondays, wednesdays, fridays from 10:00 to 10:50am"
+#   [ROOM]                 — e.g. "bronfman 106"
+#   [RESOURCES]            — textbook or notes attribution
+#   [COMMUNICATION_TOOL]   — e.g. "discord", "ed discussion", "piazza"
+#   [COMMUNICATION_URL]    — link to the communication platform
+#   [LATE_POLICY]          — late work policy
+#   [ACCOMMODATIONS_EMAIL] — accessibility office email
 title: "**Syllabus**"
 output:
   html_document:
     css: styles.css
 ---
 
-**Course Description:**
-[COURSE_DESCRIPTION]
+## Course Description
+
+Responsible Machine Learning is the science and practice of designing algorithms and deploying AI systems in ways that are socially sustainable. This course introduces students to core technical and socio-technical objectives in responsible AI, with an emphasis on algorithmic fairness, transparency and interpretability, differential privacy, and bias and risk factors for large language models.
+
+This course is sociotechnically grounded. Students will examine how and why machine learning systems can produce harmful or inequitable outcomes, and how different stakeholders (impacted communities, developers, institutions, and regulators) define "responsible" in ways that are sometimes in conflict. Students will learn to evaluate these trade-offs, while thinking carefully about mitigation techniques. There will be a focus on communicating technical results clearly.
+
+The course integrates both conceptual frameworks (ethics, governance, legal and policy constraints) and technical solutions (models with fairness and privacy constraints, explainability toolkits, and more). Students will work in Python to analyze datasets and write models, apply bias mitigation methods, generate explanations for model decisions, and explore privacy-preserving data releases. Students will also work on some problems requiring mathematical proofs and prerequisite knowledge of probability and statistics. Students will be assessed on their ability to present their work coherently and demonstrate mastery of the material.
+
+## Learning Goals
+
+By the end of this course, students will:
+
+1. **Understand the motivations and stakes of responsible machine learning**, including the historical and ongoing harms caused by poorly designed systems, and why sociotechnical perspectives are essential to addressing them.
+2. **Develop fluency with the major tools and frameworks** the RML community has produced over the past two decades, including fairness metrics and constraints, interpretability and explainability methods, differential privacy, and LLM risk evaluation.
+3. **Gain hands-on experience applying this toolkit** to hard, open-ended problems through structured lab work and an original research project.
+
+## Logistics
 
 **Prerequisites:** [PREREQUISITES]
 
 **Structure:** [MEETING_TIMES] in [ROOM].
 
-**Resources**: [RESOURCES]
+**Resources:** [RESOURCES]
 
-**Electronic Devices**: Phones and computers are distracting to you and your peers. Please do not use them during class.
+**Electronic Devices:** Phones and computers are distracting to you and your peers. Please do not use them during class.
 
-**Communication**: Please post all course-related questions on [[COMMUNICATION_TOOL]]([COMMUNICATION_URL]), either in the appropriate channel or as a direct message to me.
+**Communication:** Please post all course-related questions on [[COMMUNICATION_TOOL]]([COMMUNICATION_URL]), either in the appropriate channel or as a direct message to me.
 
-### **Grading**
+## Grading
 
-Your grade in the class will be based on the number of points $P$ that you earn. You will receive an A if $P \geq 93$, an A- if $93 > P \geq 90$, a B+ if $90 > P \geq 87$, and so on. You may earn points through the following assignments:
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td>Component</td>
+    <td>Weight</td>
+  </tr>
+  <tr>
+    <td>Quizzes</td>
+    <td>10%</td>
+  </tr>
+  <tr>
+    <td>Midterm</td>
+    <td>15%</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>20%</td>
+  </tr>
+  <tr>
+    <td>Labs</td>
+    <td>20%</td>
+  </tr>
+  <tr>
+    <td>Research Project</td>
+    <td>20%</td>
+  </tr>
+  <tr>
+    <td>Homework</td>
+    <td>15%</td>
+  </tr>
+  <tr>
+    <td><strong>Total</strong></td>
+    <td><strong>100%</strong></td>
+  </tr>
+</table>
 
-- **Problem Sets ([PSET_POINTS] Points):**
-[Describe problem set structure, collaboration policy, and how they are graded.]
+<br>
 
-- **Quizzes ([QUIZ_POINTS] Points):**
-[Describe quiz format — when they happen, what they cover, how long they are, how they are graded.]
+**Quizzes (10%):**
+Short quizzes (10 minutes), consisting of multiple-choice and true/false questions, will be held on Mondays and will cover lecture content from the preceding week. Students will vote at the start of the semester on their preferred timing within the lecture period: beginning, middle, or end. Each quiz will be worth 1 point. Students will have ~12 quizzes, though only need 10 points to achieve full credit on the quiz category towards their final grade. Thus, students could (in principle) miss up to 2 quizzes entirely and still receive full credit. For this reason, make-up quizzes will only be given under extreme circumstances.
 
-- **Exams ([EXAM_POINTS] Points):**
-[Describe exam format — in-person vs. take-home, what materials are allowed, what is covered.]
+**Labs (20%):**
+Lab sections alternate between problem weeks and presentation weeks. Students work in permanent groups of three on assigned problem sets, then present solutions to peer groups. See the [Labs](labs.html) page for full details.
 
-- **Project ([PROJECT_POINTS] Points):**
-[Describe the final project — topic selection, deliverables (code, report, presentation), group policy.]
+**Midterm and Final Exam (35%):**
+The midterm and final exams share a consistent format: a section of multiple-choice and true/false questions (similar in style to the weekly quizzes) and a section of lab-style problems (similar in style to the lab problem sets, but somewhat more accessible). Students may also be asked to write some free-responses. The best preparation is a thorough understanding of all quiz questions and lab problems encountered throughout the semester.
 
-- **Extra Credit:**
-[Optional: describe any extra credit opportunities.]
+**Research Project (20%):**
+Students work in groups of two on a semester-long research project applying RML techniques to an original question. Deliverables include a GitHub repository, a workshop-style paper, and a class presentation. See the [Research Project](project.html) page for full details and milestones.
+
+**Homework (15%):**
+Homeworks will include a variety of problems and exploration of relevant Python packages, designed to build intuition and prepare students for exams and the research project. Grading emphasizes completion over correctness, in order to incentivize authentic engagement over shortcuts (e.g., using an LLM to complete the whole thing quickly). Students who invest genuinely in the homework will be better prepared for quizzes/exams, and will also produce more interesting projects; students who do not are likely to find the course more difficult as a whole.
 
 **Late Policy:**
 [LATE_POLICY]
 
-### **Honor Code**
+## Course Policies
 
-Academic integrity is an important part of your learning experience. You are welcome to use online material and discuss problems with others, but you must explicitly acknowledge any outside resources (websites, people, or LLMs) on the work you submit.
+**Language Models:**
+This course is designed to be largely agnostic to LLM usage. Students who rely on language models for assignments may find themselves at a disadvantage when assessments arrive, as exams and quizzes are designed to test understanding. Students are softly encouraged to use LLMs for the coding portions of the research project, as this part of the class requires extensive effort. However, the written portions of the project should reflect the joint work of both project partners, and students are discouraged from using LLMs for the article, beyond grammatical checks and cleaning up language.
 
-**Large Language Models:** LLMs are a powerful tool. However, while they are very good at producing human-like text, they have no inherent sense of correctness. You may use LLMs (as detailed below) but you are wholly responsible for the material you submit.
+**Engagement:**
+While lecture engagement is not formally graded, it is greatly appreciated. Lab sections serve as the primary participation check.
 
-You may use LLMs for:
-
-- Implementing short blocks of code that you can easily check.
-- Answering simple questions whose answers you can easily verify.
-
-Do not use LLMs for:
-
-- Implementing extensive blocks of code or code that you don't understand.
-- Answering complicated questions (like those on the problem sets) that you cannot easily verify.
-
-Ultimately, the point of the assignments is for you to practice the concepts. If you use an LLM in lieu of practice, you deny yourself the chance to learn.
-
-### **Academic Accommodations**
+## Academic Accommodations
 
 If you have a Letter of Accommodation, please contact me as early in the semester as possible. If you do not have a Letter of Accommodation and you believe you are eligible, please reach out to Accessibility Services at [[ACCOMMODATIONS_EMAIL]](mailto:[ACCOMMODATIONS_EMAIL]).

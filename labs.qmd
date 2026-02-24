@@ -1,0 +1,98 @@
+---
+title: "**Labs**"
+output:
+  html_document:
+    css: styles.css
+---
+
+## Overview
+
+Lab sections alternate between two types of weeks: **(A) Problem weeks** and **(B) Presentation weeks**. Students will be organized into permanent groups of three at the start of the semester (six groups total). Each group is assigned a home problem set (Set 1, 2, or 3), with two groups sharing each set.
+
+---
+
+## (A) Problem Weeks
+
+Groups work through their assigned problem set during lab. Problem sets consist of 1–2 challenging problems. **No laptops, phones, or electronic devices are permitted.** A printed reference sheet of useful formulas and prior results will be provided. Any student found using technology during a problem week will receive a zero for that lab.
+
+Students will submit notes for completion credit: one group member is responsible for photographing the group's work (from the blackboard or paper) and uploading it to the shared drive.
+
+---
+
+## (B) Presentation Weeks
+
+Groups pair with a group that worked a *different* problem set and present their solutions. The emphasis is not only on the correctness of the solution, but on the process: What did students notice? What was the intuition? Each presentation should last approximately 10–20 minutes and should genuinely educate the audience: both on how the solution works and on the intuition behind the problem itself.
+
+Grading for presentation weeks is completion-based, assessed on the quality and coherence of the presented solution. Students are expected to have put genuine thought into how they will structure their presentation. **Every student must speak**: at minimum, one student may serve as the designated question-answerer at the end. After presentation week, full solutions will be released for all three problem sets.
+
+---
+
+## Schedule
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td>Lab</td>
+    <td>Week</td>
+    <td>Type</td>
+    <td>Problem Set</td>
+    <td>Solutions</td>
+  </tr>
+
+  <!-- lab week rows — duplicate and fill in -->
+  <tr>
+    <td>Lab 1</td>
+    <td>Week 2</td>
+    <td>Problem (A)</td>
+    <td>All groups work Set 1, 2, or 3</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Lab 2</td>
+    <td>Week 3</td>
+    <td>Presentation (B)</td>
+    <td>—</td>
+    <td><a href="labs/lab1_solutions.html">Set 1</a> · <a href="labs/lab2_solutions.html">Set 2</a> · <a href="labs/lab3_solutions.html">Set 3</a></td>
+  </tr>
+  <tr>
+    <td>Lab 3</td>
+    <td>Week 5</td>
+    <td>Problem (A)</td>
+    <td>All groups work Set 1, 2, or 3</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Lab 4</td>
+    <td>Week 6</td>
+    <td>Presentation (B)</td>
+    <td>—</td>
+    <td><a href="labs/lab4_solutions.html">[placeholder]</a></td>
+  </tr>
+  <!-- continue pattern for remaining labs -->
+</table>
+
+---
+
+## Problem Set Solutions
+
+Full solutions are released after each presentation week. Links below are placeholders — each points to a formatted solution page once available.
+
+<div class="row">
+  <div class="col" markdown="1">
+
+  **Unit 1**
+
+  - [Lab 1, Set 1](labs/lab1_solutions.html)
+  - [Lab 1, Set 2](labs/lab2_solutions.html)
+  - [Lab 1, Set 3](labs/lab3_solutions.html)
+
+  </div>
+  <div class="col" markdown="1">
+
+  **Unit 2**
+
+  - [Lab 2, Set 1](labs/lab4_solutions.html)
+  - [Lab 2, Set 2](labs/lab4_solutions.html)
+  - [Lab 2, Set 3](labs/lab4_solutions.html)
+
+  </div>
+</div>

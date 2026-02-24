@@ -1,0 +1,108 @@
+---
+title: "**Research Project**"
+output:
+  html_document:
+    css: styles.css
+---
+
+## Overview
+
+Students will work in **groups of two** on a semester-long research project that mimics the research process applied to an open RML question. Students will be required to schedule time to meet with the instructor during office hour blocks at designated project milestones.
+
+**Partner matching:** Submit the [partner matching form]([PARTNER_FORM_URL]) by the Week 2 deadline. Students without a partner by that deadline will be matched by the instructor.
+
+> Students who produce strong projects should consider submitting their work to an actual RML workshop. The instructor will support any interested students through this process.
+
+---
+
+## Milestones
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td>Milestone</td>
+    <td>Deadline</td>
+    <td>Deliverable</td>
+  </tr>
+
+  <tr class="section-header">
+    <td colspan="3">Getting Started</td>
+  </tr>
+  <tr>
+    <td>Partner matching</td>
+    <td>Week 2 (Sept [X])</td>
+    <td>Submit partner form; unmatched students paired by instructor</td>
+  </tr>
+  <tr>
+    <td>Proposal + instructor meeting</td>
+    <td>Week 3 (Sept [X])</td>
+    <td>One-page proposal: research question, dataset, proposed approach</td>
+  </tr>
+
+  <tr class="section-header">
+    <td colspan="3">Mid-Semester Check-In</td>
+  </tr>
+  <tr>
+    <td>Initial results + instructor meeting</td>
+    <td>Week 7 (Oct [X])</td>
+    <td>GitHub repo up to date; preliminary experiment results</td>
+  </tr>
+  <tr>
+    <td>Draft paper</td>
+    <td>Week 11 (Nov [X])</td>
+    <td>Full 4-page draft submitted; instructor feedback provided</td>
+  </tr>
+
+  <tr class="section-header">
+    <td colspan="3">Final Deliverables</td>
+  </tr>
+  <tr>
+    <td>Class presentations</td>
+    <td>Week 13 (Nov [X]–[X])</td>
+    <td>10-minute presentation to the full class</td>
+  </tr>
+  <tr>
+    <td>Final paper + repo</td>
+    <td>Week 14 (Dec [X])</td>
+    <td>Revised paper and clean, reproducible GitHub repository</td>
+  </tr>
+</table>
+
+---
+
+## Deliverable 1: GitHub Repository
+
+Students will create and maintain a GitHub repository with the following structure:
+
+```
+README.md              # research question and proposed approach
+data/                  # data and data-loading code
+src/                   # python package
+  utils/               # helper code
+  <project_name>/      # core project module
+  metrics/             # metrics and plotting code
+exp_runner.py          # main experiment runner
+exp_***.py             # additional experiment scripts
+env.yaml               # conda environment specification
+```
+
+Code must be clean, well-commented, and reproducible after correct Conda environment setup. A GitHub template is available for students to use as a starting point, with templated files and already functional example imports.
+
+---
+
+## Deliverable 2: Workshop Paper
+
+Students will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf. This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 6 pages of appendix are available for supplementary figures and details. Reports over 10 pages (excluding references) will receive a minor deduction.
+
+---
+
+## Deliverable 3: Class Presentation
+
+Students will give a **10-minute presentation** to the full class. Both project partners must speak. The prescribed format is:
+
+- **Title slide**
+- **Problem statement** (3–5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!
+- **Data, experimental setup, and metrics** (1–3 slides): Explain how success will be evaluated.
+- **Key result** (1 slide): Walk through a single plot or table in detail and explain what it means for the broader research question.
+- **Summary and takeaways** (1 slide): State the conclusions clearly.
+
+Presentations are evaluated on clarity and insight. Slides that favor intuitive visuals over dense text will receive higher marks.

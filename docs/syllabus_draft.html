@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Responsible Machine Learning</title>
+<title>syllabus_draft</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -166,144 +166,158 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><strong>Responsible Machine Learning</strong></h1>
-</div>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta column-page">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<center>
-<em>The science and practice of designing and deploying machine learning systems that are fair, interpretable, and privacy-preserving.</em>
-</center>
-<p><br></p>
-<div class="row">
-<div class="col" data-markdown="1">
-<p><strong>Instructor</strong>: <a href="[INSTRUCTOR_URL]">Lucas Rosenblatt</a>. Please call me Lucas.</p>
-<p><strong>Class Times</strong>: [MEETING_TIMES] in [ROOM].</p>
-<p><strong>Office Hours</strong>: [OFFICE_HOURS] in [OFFICE_LOCATION].</p>
-<p><strong>Homework</strong>: Problem sets covering technical and conceptual material, graded for completion. Designed to build intuition and prepare for exams and the project.</p>
-</div>
-<div class="col" data-markdown="1">
-<p><strong>Labs</strong>: Alternating problem weeks and presentation weeks, in permanent groups of three. See the <a href="labs.html">Labs</a> page.</p>
-<p><strong>Quizzes</strong>: Short 10-minute quizzes on Mondays covering the prior week’s lectures. ~12 total; 10 points needed for full credit.</p>
-<p><strong>Exams</strong>: Two exams (midterm + final), each with multiple-choice/true-false and lab-style problem sections.</p>
-<p><strong>Project</strong>: Semester-long project in groups of two — GitHub repo, 4-page workshop paper, and 10-minute class presentation. See the <a href="project.html">Project</a> page.</p>
-</div>
-</div>
-<p><strong>Resources</strong>: [RESOURCES]</p>
-<table style="width: 100%; border-collapse: collapse;">
-<tbody><tr>
-<td>
-Week
-</td>
-<td>
-[DAY 1]
-</td>
-<td>
-[DAY 2]
-</td>
-<td>
-Slides
-</td>
-<td>
-Assignments
-</td>
+<section id="responsible-machine-learning" class="level1">
+<h1>Responsible Machine Learning</h1>
+<p><strong>Course Syllabus</strong></p>
+<hr>
+<section id="course-overview" class="level2">
+<h2 class="anchored" data-anchor-id="course-overview">Course Overview</h2>
+<p>Responsible Machine Learning is the science and practice of designing algorithms and deploying AI systems in ways that are socially sustainable. This course introduces students to core technical and socio-technical objectives in responsible AI, with an emphasis on algorithmic fairness, transparency and interpretability, differential privacy, and bias and risk factors for large language models.</p>
+<p>This course is sociotechnically grounded. Students will examine how and why machine learning systems can produce harmful or inequitable outcomes, and how different stakeholders (impacted communities, developers, institutions, and regulators) define “responsible” in ways that are sometimes in conflict. Students will learn to evaluate these trade-offs, while thinking carefully about mitigation techniques. There will be a focuse on communicating technical results clearly.</p>
+<p>The course integrates both conceptual frameworks (ethics, governance, legal and policy constraints) and technical solutions (models with fairness and privacy constraints, explainability toolkits, and more). Students will work in Python to analyze datasets and write models, apply bias mitigation methods, generate explanations for model decisions, and explore privacy-preserving data releases. Students will also work on some problems requiring mathematical proofs and prerequisite knowledge of probability and statistics. Students will be assessed on their ability to present their work coherently and demonstrate mastery of the material.</p>
+<hr>
+</section>
+<section id="learning-goals" class="level2">
+<h2 class="anchored" data-anchor-id="learning-goals">Learning Goals</h2>
+<p>By the end of this course, students will:</p>
+<ol type="1">
+<li><strong>Understand the motivations and stakes of responsible machine learning</strong>, including the historical and ongoing harms caused by poorly designed systems, and why sociotechnical perspectives are essential to addressing them.</li>
+<li><strong>Develop fluency with the major tools and frameworks</strong> the RML community has produced over the past two decades, including fairness metrics and constraints, interpretability and explainability methods, differential privacy, and LLM risk evaluation.</li>
+<li><strong>Gain hands-on experience applying this toolkit</strong> to hard, open-ended problems through structured lab work and an original research project.</li>
+</ol>
+<hr>
+</section>
+<section id="lab-sections" class="level2">
+<h2 class="anchored" data-anchor-id="lab-sections">Lab Sections</h2>
+<p>Lab sections alternate between two types of weeks: <strong>(A) Problem weeks</strong> and <strong>(B) Presentation weeks</strong>. Students will be organized into permanent groups of three at the start of the semester (six groups total). Each group is assigned a home problem set (Set 1, 2, or 3), with two groups sharing each set.</p>
+<section id="a-problem-weeks" class="level3">
+<h3 class="anchored" data-anchor-id="a-problem-weeks">(A) Problem Weeks</h3>
+<p>Groups work through their assigned problem set during lab. Problem sets consist of 1–2 challenging problems. <strong>No laptops, phones, or electronic devices are permitted.</strong> A printed reference sheet of useful formulas and prior results will be provided. Any student found using technology during an (A) week will receive a zero for that lab.</p>
+<p>Students will submit notes for completion credit: one group member is responsible for photographing the group’s work (from the blackboard or paper) and uploading it to the shared drive.</p>
+</section>
+<section id="b-presentation-weeks" class="level3">
+<h3 class="anchored" data-anchor-id="b-presentation-weeks">(B) Presentation Weeks</h3>
+<p>Groups pair with a group that worked a <em>different</em> problem set and present their solutions. The emphasis is not only on the correctness of the solution, but on the process: What did students notice? What was the intuition? Each presentation should last approximately 10–20 minutes and should genuinely educate the audience: both on how the solution works and on the intuition behind the problem itself.</p>
+<p>Grading for (B) weeks is completion-based, assessed on the quality and coherence of the presented solution. Students are expected to have put genuine thought into how they will structure their presentation. <strong>Every student must speak</strong>: at minimum, one student may serve as the designated question-answerer at the end. After (B) week, full solutions will be released for all three problem sets.</p>
+<hr>
+</section>
+</section>
+<section id="quizzes" class="level2">
+<h2 class="anchored" data-anchor-id="quizzes">Quizzes</h2>
+<p>Short quizzes (10 minutes), consisting of multiple-choice and true/false questions, will be held on Mondays and will cover lecture content from the preceding week. Students will vote at the start of the semester on their preferred timing within the lecture period: beginning, middle, or end. Each quiz will be worth 1 point. Students will have ~12 quizzes, though only need 10 points to acheive full credit on the quiz category towards their final grade. Thus, students could (in principle) miss up to 2 quizzes entirely and still receive full credit. For this reason, make-up quizzes will only be given under extreme circumstances.</p>
+<hr>
+</section>
+<section id="midterm-and-final-exam" class="level2">
+<h2 class="anchored" data-anchor-id="midterm-and-final-exam">Midterm and Final Exam</h2>
+<p>The midterm and final exams share a consistent format: a section of multiple-choice and true/false questions (similar in style to the weekly quizzes) and a section of lab-style problems (similar in style to the lab problem sets, but somewhat more accessible). Students may also be asked to write some free-responses. The best preparation is a thorough understanding of all quiz questions and lab problems encountered throughout the semester.</p>
+<hr>
+</section>
+<section id="research-project" class="level2">
+<h2 class="anchored" data-anchor-id="research-project">Research Project</h2>
+<p>Students will work in <strong>groups of two</strong> on a semester-long research project that mimics the research process applied to an open RML question. Students will be required to schedule time to meet with the instructor during instructor office hour blocks at designated project milestones.</p>
+<section id="deliverable-1-github-repository" class="level3">
+<h3 class="anchored" data-anchor-id="deliverable-1-github-repository">Deliverable 1: GitHub Repository</h3>
+<p>Students will create and maintain a GitHub repository with the following structure:</p>
+<pre><code>README.md              # Research question and proposed approach
+data/                  # Data and data-loading code
+src/                   # Python package
+  utils/               # Helper code
+  &lt;project_name&gt;/      # Core project module
+  metrics/             # Metrics and plotting code
+exp_runner.py          # Main experiment runner
+exp_***.py             # Additional experiment scripts
+env.yaml               # Conda environment specification</code></pre>
+<p>Code must be clean, well-commented, and reproducible after correct Conda environment setup.</p>
+<p>A github template is available for students to use as a starting point, with templated files and already functional example imports, etc.</p>
+</section>
+<section id="deliverable-2-workshop-paper" class="level3">
+<h3 class="anchored" data-anchor-id="deliverable-2-workshop-paper">Deliverable 2: Workshop Paper</h3>
+<p>Students will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf. This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 6 pages of appendix are available for supplementary figures and details. Reports over 10 pages (excluding references) will receive a minor deduction.</p>
+</section>
+<section id="deliverable-3-class-presentation" class="level3">
+<h3 class="anchored" data-anchor-id="deliverable-3-class-presentation">Deliverable 3: Class Presentation</h3>
+<p>Students will give a <strong>10-minute presentation</strong> to the full class. Both project partners must speak. The prescribed format is:</p>
+<ul>
+<li><strong>Title slide</strong></li>
+<li><strong>Problem statement</strong> (3–5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!</li>
+<li><strong>Data, experimental setup, and metrics</strong> (1-3 slides): Explain how success will be evaluated.</li>
+<li><strong>Key result</strong> (1 slide): Walk through a single plot or table in detail and explain what it means for the broader research question.</li>
+<li><strong>Summary and takeaways</strong> (1 slide): State the conclusions clearly.</li>
+</ul>
+<p>Presentations are evaluated on clarity and insight. Slides that favor intuitive visuals over dense text will receive higher marks.</p>
+<blockquote class="blockquote">
+<p><strong>Note:</strong> Students who produce strong projects should consider submitting their work to an actual RML workshop. The instructor will support any interested students through this process.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="homework" class="level2">
+<h2 class="anchored" data-anchor-id="homework">Homework</h2>
+<p>Homeworks will include a variety of problems and exploration of relevant Python packages, designed to build intuition and prepare students for exams and the research project. <strong>Grading emphasizes completion over correctness</strong>, in order to incentivize authentic engagement over shortcuts (e.g., using an LLM to complete the whole thing quickly). Students who invest genuinely in the homework will be better prepared for quizzes/exams, and will also produce more interesting projects; students who do not are likely to find the course more difficult as a whole.</p>
+<hr>
+</section>
+<section id="course-policies" class="level2">
+<h2 class="anchored" data-anchor-id="course-policies">Course Policies</h2>
+<section id="language-models" class="level3">
+<h3 class="anchored" data-anchor-id="language-models">Language Models</h3>
+<p>This course is designed to be largely agnostic to LLM usage. Students who rely on language models for assignments may find themselves at a disadvantage when assessments arrive, as exams and quizzes weeks are designed to test understanding. Students are <strong>softly encouraged</strong> to use LLMs for the coding portions of the research project, as this part of the class requires extensive efforts. However, the written portions of the project should reflect the joint work of both project partners, and students are discouraged from using LLMs for the article, beyond grammatical checks and cleaning up language.</p>
+</section>
+<section id="engagement" class="level3">
+<h3 class="anchored" data-anchor-id="engagement">Engagement</h3>
+<p>While lecture engagement is not formally graded, it is greatly appreciated. Lab sections serve as the primary participation check.</p>
+<hr>
+</section>
+</section>
+<section id="grade-breakdown" class="level2">
+<h2 class="anchored" data-anchor-id="grade-breakdown">Grade Breakdown</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight</th>
 </tr>
-<!-- unit divider — add one per unit, remove if the course has no units -->
-<tr class="section-header">
-<td colspan="5">
-[Unit 1 Title]
-</td>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quizzes</td>
+<td>10%</td>
 </tr>
-<!-- regular lecture week -->
-<tr>
-<td>
-Week 1 ([DATE] and [DATE])
-</td>
-<td>
-[Lecture Title]
-</td>
-<td>
-[Lecture Title]
-</td>
-<td>
-</td>
-<td>
-</td>
+<tr class="even">
+<td>Midterm</td>
+<td>15%</td>
 </tr>
-<!-- midterm week -->
-<tr>
-<td>
-Week N ([DATE] and [DATE])
-</td>
-<td>
-[Lecture Title]
-</td>
-<td>
-<i>Midterm Exam</i>
-</td>
-<td>
-</td>
-<td>
-</td>
+<tr class="odd">
+<td>Final Exam</td>
+<td>20%</td>
 </tr>
-<!-- break week -->
-<tr>
-<td>
-Week N ([DATE] and [DATE])
-</td>
-<td>
-<i>[Break Name] (No Class)</i>
-</td>
-<td>
-<i>[Break Name] (No Class)</i>
-</td>
-<td>
-</td>
-<td>
-</td>
+<tr class="even">
+<td>Labs</td>
+<td>20%</td>
 </tr>
-<!-- unit divider — duplicate section as needed -->
-<tr class="section-header">
-<td colspan="5">
-[Unit 2 Title]
-</td>
+<tr class="odd">
+<td>Research Project</td>
+<td>20%</td>
 </tr>
-<!-- final week -->
-<tr>
-<td>
-Week N ([DATE] and [DATE])
-</td>
-<td>
-<i>Project Presentations</i>
-</td>
-<td>
-<i>[Reading Day / Finals / etc.] (No Class)</i>
-</td>
-<td>
-</td>
-<td>
-</td>
+<tr class="even">
+<td>Homework</td>
+<td>15%</td>
 </tr>
-</tbody></table>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
 
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

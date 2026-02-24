@@ -1,17 +1,171 @@
 [
   {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Research Project",
+    "section": "",
+    "text": "Students will work in groups of two on a semester-long research project that mimics the research process applied to an open RML question. Students will be required to schedule time to meet with the instructor during office hour blocks at designated project milestones.\nPartner matching: Submit the partner matching form by the Week 2 deadline. Students without a partner by that deadline will be matched by the instructor.\n\nStudents who produce strong projects should consider submitting their work to an actual RML workshop. The instructor will support any interested students through this process."
+  },
+  {
+    "objectID": "project.html#overview",
+    "href": "project.html#overview",
+    "title": "Research Project",
+    "section": "",
+    "text": "Students will work in groups of two on a semester-long research project that mimics the research process applied to an open RML question. Students will be required to schedule time to meet with the instructor during office hour blocks at designated project milestones.\nPartner matching: Submit the partner matching form by the Week 2 deadline. Students without a partner by that deadline will be matched by the instructor.\n\nStudents who produce strong projects should consider submitting their work to an actual RML workshop. The instructor will support any interested students through this process."
+  },
+  {
+    "objectID": "project.html#milestones",
+    "href": "project.html#milestones",
+    "title": "Research Project",
+    "section": "Milestones",
+    "text": "Milestones\n\n\n\nMilestone\n\n\nDeadline\n\n\nDeliverable\n\n\n\n\nGetting Started\n\n\n\n\nPartner matching\n\n\nWeek 2 (Sept [X])\n\n\nSubmit partner form; unmatched students paired by instructor\n\n\n\n\nProposal + instructor meeting\n\n\nWeek 3 (Sept [X])\n\n\nOne-page proposal: research question, dataset, proposed approach\n\n\n\n\nMid-Semester Check-In\n\n\n\n\nInitial results + instructor meeting\n\n\nWeek 7 (Oct [X])\n\n\nGitHub repo up to date; preliminary experiment results\n\n\n\n\nDraft paper\n\n\nWeek 11 (Nov [X])\n\n\nFull 4-page draft submitted; instructor feedback provided\n\n\n\n\nFinal Deliverables\n\n\n\n\nClass presentations\n\n\nWeek 13 (Nov [X]–[X])\n\n\n10-minute presentation to the full class\n\n\n\n\nFinal paper + repo\n\n\nWeek 14 (Dec [X])\n\n\nRevised paper and clean, reproducible GitHub repository"
+  },
+  {
+    "objectID": "project.html#deliverable-1-github-repository",
+    "href": "project.html#deliverable-1-github-repository",
+    "title": "Research Project",
+    "section": "Deliverable 1: GitHub Repository",
+    "text": "Deliverable 1: GitHub Repository\nStudents will create and maintain a GitHub repository with the following structure:\nREADME.md              # research question and proposed approach\ndata/                  # data and data-loading code\nsrc/                   # python package\n  utils/               # helper code\n  &lt;project_name&gt;/      # core project module\n  metrics/             # metrics and plotting code\nexp_runner.py          # main experiment runner\nexp_***.py             # additional experiment scripts\nenv.yaml               # conda environment specification\nCode must be clean, well-commented, and reproducible after correct Conda environment setup. A GitHub template is available for students to use as a starting point, with templated files and already functional example imports."
+  },
+  {
+    "objectID": "project.html#deliverable-2-workshop-paper",
+    "href": "project.html#deliverable-2-workshop-paper",
+    "title": "Research Project",
+    "section": "Deliverable 2: Workshop Paper",
+    "text": "Deliverable 2: Workshop Paper\nStudents will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf. This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 6 pages of appendix are available for supplementary figures and details. Reports over 10 pages (excluding references) will receive a minor deduction."
+  },
+  {
+    "objectID": "project.html#deliverable-3-class-presentation",
+    "href": "project.html#deliverable-3-class-presentation",
+    "title": "Research Project",
+    "section": "Deliverable 3: Class Presentation",
+    "text": "Deliverable 3: Class Presentation\nStudents will give a 10-minute presentation to the full class. Both project partners must speak. The prescribed format is:\n\nTitle slide\nProblem statement (3–5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!\nData, experimental setup, and metrics (1–3 slides): Explain how success will be evaluated.\nKey result (1 slide): Walk through a single plot or table in detail and explain what it means for the broader research question.\nSummary and takeaways (1 slide): State the conclusions clearly.\n\nPresentations are evaluated on clarity and insight. Slides that favor intuitive visuals over dense text will receive higher marks."
+  },
+  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Course Description: [COURSE_DESCRIPTION]\nPrerequisites: [PREREQUISITES]\nStructure: [MEETING_TIMES] in [ROOM].\nResources: [RESOURCES]\nElectronic Devices: Phones and computers are distracting to you and your peers. Please do not use them during class.\nCommunication: Please post all course-related questions on [COMMUNICATION_TOOL], either in the appropriate channel or as a direct message to me.\n\nGrading\nYour grade in the class will be based on the number of points \\(P\\) that you earn. You will receive an A if \\(P \\geq 93\\), an A- if \\(93 &gt; P \\geq 90\\), a B+ if \\(90 &gt; P \\geq 87\\), and so on. You may earn points through the following assignments:\n\nProblem Sets ([PSET_POINTS] Points): [Describe problem set structure, collaboration policy, and how they are graded.]\nQuizzes ([QUIZ_POINTS] Points): [Describe quiz format — when they happen, what they cover, how long they are, how they are graded.]\nExams ([EXAM_POINTS] Points): [Describe exam format — in-person vs. take-home, what materials are allowed, what is covered.]\nProject ([PROJECT_POINTS] Points): [Describe the final project — topic selection, deliverables (code, report, presentation), group policy.]\nExtra Credit: [Optional: describe any extra credit opportunities.]\n\nLate Policy: [LATE_POLICY]\n\n\nHonor Code\nAcademic integrity is an important part of your learning experience. You are welcome to use online material and discuss problems with others, but you must explicitly acknowledge any outside resources (websites, people, or LLMs) on the work you submit.\nLarge Language Models: LLMs are a powerful tool. However, while they are very good at producing human-like text, they have no inherent sense of correctness. You may use LLMs (as detailed below) but you are wholly responsible for the material you submit.\nYou may use LLMs for:\n\nImplementing short blocks of code that you can easily check.\nAnswering simple questions whose answers you can easily verify.\n\nDo not use LLMs for:\n\nImplementing extensive blocks of code or code that you don’t understand.\nAnswering complicated questions (like those on the problem sets) that you cannot easily verify.\n\nUltimately, the point of the assignments is for you to practice the concepts. If you use an LLM in lieu of practice, you deny yourself the chance to learn.\n\n\nAcademic Accommodations\nIf you have a Letter of Accommodation, please contact me as early in the semester as possible. If you do not have a Letter of Accommodation and you believe you are eligible, please reach out to Accessibility Services at [ACCOMMODATIONS_EMAIL]."
+    "text": "Responsible Machine Learning is the science and practice of designing algorithms and deploying AI systems in ways that are socially sustainable. This course introduces students to core technical and socio-technical objectives in responsible AI, with an emphasis on algorithmic fairness, transparency and interpretability, differential privacy, and bias and risk factors for large language models.\nThis course is sociotechnically grounded. Students will examine how and why machine learning systems can produce harmful or inequitable outcomes, and how different stakeholders (impacted communities, developers, institutions, and regulators) define “responsible” in ways that are sometimes in conflict. Students will learn to evaluate these trade-offs, while thinking carefully about mitigation techniques. There will be a focus on communicating technical results clearly.\nThe course integrates both conceptual frameworks (ethics, governance, legal and policy constraints) and technical solutions (models with fairness and privacy constraints, explainability toolkits, and more). Students will work in Python to analyze datasets and write models, apply bias mitigation methods, generate explanations for model decisions, and explore privacy-preserving data releases. Students will also work on some problems requiring mathematical proofs and prerequisite knowledge of probability and statistics. Students will be assessed on their ability to present their work coherently and demonstrate mastery of the material."
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Responsible Machine Learning is the science and practice of designing algorithms and deploying AI systems in ways that are socially sustainable. This course introduces students to core technical and socio-technical objectives in responsible AI, with an emphasis on algorithmic fairness, transparency and interpretability, differential privacy, and bias and risk factors for large language models.\nThis course is sociotechnically grounded. Students will examine how and why machine learning systems can produce harmful or inequitable outcomes, and how different stakeholders (impacted communities, developers, institutions, and regulators) define “responsible” in ways that are sometimes in conflict. Students will learn to evaluate these trade-offs, while thinking carefully about mitigation techniques. There will be a focus on communicating technical results clearly.\nThe course integrates both conceptual frameworks (ethics, governance, legal and policy constraints) and technical solutions (models with fairness and privacy constraints, explainability toolkits, and more). Students will work in Python to analyze datasets and write models, apply bias mitigation methods, generate explanations for model decisions, and explore privacy-preserving data releases. Students will also work on some problems requiring mathematical proofs and prerequisite knowledge of probability and statistics. Students will be assessed on their ability to present their work coherently and demonstrate mastery of the material."
+  },
+  {
+    "objectID": "syllabus.html#learning-goals",
+    "href": "syllabus.html#learning-goals",
+    "title": "Syllabus",
+    "section": "Learning Goals",
+    "text": "Learning Goals\nBy the end of this course, students will:\n\nUnderstand the motivations and stakes of responsible machine learning, including the historical and ongoing harms caused by poorly designed systems, and why sociotechnical perspectives are essential to addressing them.\nDevelop fluency with the major tools and frameworks the RML community has produced over the past two decades, including fairness metrics and constraints, interpretability and explainability methods, differential privacy, and LLM risk evaluation.\nGain hands-on experience applying this toolkit to hard, open-ended problems through structured lab work and an original research project."
+  },
+  {
+    "objectID": "syllabus.html#logistics",
+    "href": "syllabus.html#logistics",
+    "title": "Syllabus",
+    "section": "Logistics",
+    "text": "Logistics\nPrerequisites: [PREREQUISITES]\nStructure: [MEETING_TIMES] in [ROOM].\nResources: [RESOURCES]\nElectronic Devices: Phones and computers are distracting to you and your peers. Please do not use them during class.\nCommunication: Please post all course-related questions on [COMMUNICATION_TOOL], either in the appropriate channel or as a direct message to me."
+  },
+  {
+    "objectID": "syllabus.html#grading",
+    "href": "syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\n\n\n\nComponent\n\n\nWeight\n\n\n\n\nQuizzes\n\n\n10%\n\n\n\n\nMidterm\n\n\n15%\n\n\n\n\nFinal Exam\n\n\n20%\n\n\n\n\nLabs\n\n\n20%\n\n\n\n\nResearch Project\n\n\n20%\n\n\n\n\nHomework\n\n\n15%\n\n\n\n\nTotal\n\n\n100%\n\n\n\n\nQuizzes (10%): Short quizzes (10 minutes), consisting of multiple-choice and true/false questions, will be held on Mondays and will cover lecture content from the preceding week. Students will vote at the start of the semester on their preferred timing within the lecture period: beginning, middle, or end. Each quiz will be worth 1 point. Students will have ~12 quizzes, though only need 10 points to achieve full credit on the quiz category towards their final grade. Thus, students could (in principle) miss up to 2 quizzes entirely and still receive full credit. For this reason, make-up quizzes will only be given under extreme circumstances.\nLabs (20%): Lab sections alternate between problem weeks and presentation weeks. Students work in permanent groups of three on assigned problem sets, then present solutions to peer groups. See the Labs page for full details.\nMidterm and Final Exam (35%): The midterm and final exams share a consistent format: a section of multiple-choice and true/false questions (similar in style to the weekly quizzes) and a section of lab-style problems (similar in style to the lab problem sets, but somewhat more accessible). Students may also be asked to write some free-responses. The best preparation is a thorough understanding of all quiz questions and lab problems encountered throughout the semester.\nResearch Project (20%): Students work in groups of two on a semester-long research project applying RML techniques to an original question. Deliverables include a GitHub repository, a workshop-style paper, and a class presentation. See the Research Project page for full details and milestones.\nHomework (15%): Homeworks will include a variety of problems and exploration of relevant Python packages, designed to build intuition and prepare students for exams and the research project. Grading emphasizes completion over correctness, in order to incentivize authentic engagement over shortcuts (e.g., using an LLM to complete the whole thing quickly). Students who invest genuinely in the homework will be better prepared for quizzes/exams, and will also produce more interesting projects; students who do not are likely to find the course more difficult as a whole.\nLate Policy: [LATE_POLICY]"
+  },
+  {
+    "objectID": "syllabus.html#course-policies",
+    "href": "syllabus.html#course-policies",
+    "title": "Syllabus",
+    "section": "Course Policies",
+    "text": "Course Policies\nLanguage Models: This course is designed to be largely agnostic to LLM usage. Students who rely on language models for assignments may find themselves at a disadvantage when assessments arrive, as exams and quizzes are designed to test understanding. Students are softly encouraged to use LLMs for the coding portions of the research project, as this part of the class requires extensive effort. However, the written portions of the project should reflect the joint work of both project partners, and students are discouraged from using LLMs for the article, beyond grammatical checks and cleaning up language.\nEngagement: While lecture engagement is not formally graded, it is greatly appreciated. Lab sections serve as the primary participation check."
+  },
+  {
+    "objectID": "syllabus.html#academic-accommodations",
+    "href": "syllabus.html#academic-accommodations",
+    "title": "Syllabus",
+    "section": "Academic Accommodations",
+    "text": "Academic Accommodations\nIf you have a Letter of Accommodation, please contact me as early in the semester as possible. If you do not have a Letter of Accommodation and you believe you are eligible, please reach out to Accessibility Services at [ACCOMMODATIONS_EMAIL]."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "[COURSE_TITLE]",
+    "title": "Responsible Machine Learning",
     "section": "",
-    "text": "[COURSE_TAGLINE]\n\n\n\n\nInstructor: [INSTRUCTOR_NAME]. Please call me [PREFERRED_NAME].\nClass Times: [MEETING_TIMES] in [ROOM].\nOffice Hours: [OFFICE_HOURS] in [OFFICE_LOCATION].\nProblem Sets: [PSET_POLICY]\n\n\nQuizzes: [QUIZ_POLICY]\nExams: [EXAM_POLICY]\nProject: [PROJECT_POLICY]\n\n\nResources: [RESOURCES]\n\n\n\nWeek\n\n\nTuesday\n\n\nThursday\n\n\nSlides\n\n\nAssignments\n\n\n\n\n\n[Unit 1 Title]\n\n\n\n\n\nWeek 1 ([DATE] and [DATE])\n\n\nSample Lecture\n\n\nSample Lecture\n\n\nSlides\n\n\nProblem Set 1\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\n[Lecture Title]\n\n\nMidterm Exam\n\n\n\n\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\n[Break Name] (No Class)\n\n\n[Break Name] (No Class)\n\n\n\n\n\n\n\n\n\n[Unit 2 Title]\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\nProject Preparation\n\n\n[Reading Day / Finals / etc.] (No Class)"
+    "text": "The science and practice of designing and deploying machine learning systems that are fair, interpretable, and privacy-preserving.\n\n\n\n\nInstructor: Lucas Rosenblatt. Please call me Lucas.\nClass Times: [MEETING_TIMES] in [ROOM].\nOffice Hours: [OFFICE_HOURS] in [OFFICE_LOCATION].\nHomework: Problem sets covering technical and conceptual material, graded for completion. Designed to build intuition and prepare for exams and the project.\n\n\nLabs: Alternating problem weeks and presentation weeks, in permanent groups of three. See the Labs page.\nQuizzes: Short 10-minute quizzes on Mondays covering the prior week’s lectures. ~12 total; 10 points needed for full credit.\nExams: Two exams (midterm + final), each with multiple-choice/true-false and lab-style problem sections.\nProject: Semester-long project in groups of two — GitHub repo, 4-page workshop paper, and 10-minute class presentation. See the Project page.\n\n\nResources: [RESOURCES]\n\n\n\nWeek\n\n\n[DAY 1]\n\n\n[DAY 2]\n\n\nSlides\n\n\nAssignments\n\n\n\n\n\n[Unit 1 Title]\n\n\n\n\n\nWeek 1 ([DATE] and [DATE])\n\n\n[Lecture Title]\n\n\n[Lecture Title]\n\n\n\n\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\n[Lecture Title]\n\n\nMidterm Exam\n\n\n\n\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\n[Break Name] (No Class)\n\n\n[Break Name] (No Class)\n\n\n\n\n\n\n\n\n\n[Unit 2 Title]\n\n\n\n\n\nWeek N ([DATE] and [DATE])\n\n\nProject Presentations\n\n\n[Reading Day / Finals / etc.] (No Class)"
+  },
+  {
+    "objectID": "labs/00_template_lab_solution.html",
+    "href": "labs/00_template_lab_solution.html",
+    "title": "[LAB_NUMBER], [SET_NUMBER] Solutions",
+    "section": "",
+    "text": "[State the problem as given to students.]"
+  },
+  {
+    "objectID": "labs/00_template_lab_solution.html#problem-problem_title",
+    "href": "labs/00_template_lab_solution.html#problem-problem_title",
+    "title": "[LAB_NUMBER], [SET_NUMBER] Solutions",
+    "section": "",
+    "text": "[State the problem as given to students.]"
+  },
+  {
+    "objectID": "labs/00_template_lab_solution.html#solution",
+    "href": "labs/00_template_lab_solution.html#solution",
+    "title": "[LAB_NUMBER], [SET_NUMBER] Solutions",
+    "section": "Solution",
+    "text": "Solution\n[Opening sentence: what the core insight is.]\n\nSetup\nLet [define key quantities]. We want to show [goal].\n\\[\n[KEY_EQUATION]\n\\]\n\n\nArgument\n[Step-by-step solution. Use display math for any non-trivial computation.]\nWe have: \\[\n[STEP_1] = [STEP_2] = [STEP_3]\n\\]\n[Continue as needed.]\n\n\n\nDetailed calculation\n\n[Optional: expand a computation that is non-obvious but mechanical.]\n\\(\\square\\)\n\n\n\n\nConclusion\n[State what was shown. Connect back to the problem statement.]"
+  },
+  {
+    "objectID": "labs/00_template_lab_solution.html#intuition",
+    "href": "labs/00_template_lab_solution.html#intuition",
+    "title": "[LAB_NUMBER], [SET_NUMBER] Solutions",
+    "section": "Intuition",
+    "text": "Intuition\n[A few sentences on why the result makes sense, or what a student should take away beyond the formal proof.]"
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "Labs",
+    "section": "",
+    "text": "Lab sections alternate between two types of weeks: (A) Problem weeks and (B) Presentation weeks. Students will be organized into permanent groups of three at the start of the semester (six groups total). Each group is assigned a home problem set (Set 1, 2, or 3), with two groups sharing each set."
+  },
+  {
+    "objectID": "labs.html#overview",
+    "href": "labs.html#overview",
+    "title": "Labs",
+    "section": "",
+    "text": "Lab sections alternate between two types of weeks: (A) Problem weeks and (B) Presentation weeks. Students will be organized into permanent groups of three at the start of the semester (six groups total). Each group is assigned a home problem set (Set 1, 2, or 3), with two groups sharing each set."
+  },
+  {
+    "objectID": "labs.html#a-problem-weeks",
+    "href": "labs.html#a-problem-weeks",
+    "title": "Labs",
+    "section": "(A) Problem Weeks",
+    "text": "(A) Problem Weeks\nGroups work through their assigned problem set during lab. Problem sets consist of 1–2 challenging problems. No laptops, phones, or electronic devices are permitted. A printed reference sheet of useful formulas and prior results will be provided. Any student found using technology during a problem week will receive a zero for that lab.\nStudents will submit notes for completion credit: one group member is responsible for photographing the group’s work (from the blackboard or paper) and uploading it to the shared drive."
+  },
+  {
+    "objectID": "labs.html#b-presentation-weeks",
+    "href": "labs.html#b-presentation-weeks",
+    "title": "Labs",
+    "section": "(B) Presentation Weeks",
+    "text": "(B) Presentation Weeks\nGroups pair with a group that worked a different problem set and present their solutions. The emphasis is not only on the correctness of the solution, but on the process: What did students notice? What was the intuition? Each presentation should last approximately 10–20 minutes and should genuinely educate the audience: both on how the solution works and on the intuition behind the problem itself.\nGrading for presentation weeks is completion-based, assessed on the quality and coherence of the presented solution. Students are expected to have put genuine thought into how they will structure their presentation. Every student must speak: at minimum, one student may serve as the designated question-answerer at the end. After presentation week, full solutions will be released for all three problem sets."
+  },
+  {
+    "objectID": "labs.html#schedule",
+    "href": "labs.html#schedule",
+    "title": "Labs",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\nLab\n\n\nWeek\n\n\nType\n\n\nProblem Set\n\n\nSolutions\n\n\n\n\n\nLab 1\n\n\nWeek 2\n\n\nProblem (A)\n\n\nAll groups work Set 1, 2, or 3\n\n\n—\n\n\n\n\nLab 2\n\n\nWeek 3\n\n\nPresentation (B)\n\n\n—\n\n\nSet 1 · Set 2 · Set 3\n\n\n\n\nLab 3\n\n\nWeek 5\n\n\nProblem (A)\n\n\nAll groups work Set 1, 2, or 3\n\n\n—\n\n\n\n\nLab 4\n\n\nWeek 6\n\n\nPresentation (B)\n\n\n—\n\n\n[placeholder]"
+  },
+  {
+    "objectID": "labs.html#problem-set-solutions",
+    "href": "labs.html#problem-set-solutions",
+    "title": "Labs",
+    "section": "Problem Set Solutions",
+    "text": "Problem Set Solutions\nFull solutions are released after each presentation week. Links below are placeholders — each points to a formatted solution page once available.\n\n\nUnit 1\n\nLab 1, Set 1\nLab 1, Set 2\nLab 1, Set 3\n\n\n\nUnit 2\n\nLab 2, Set 1\nLab 2, Set 2\nLab 2, Set 3"
   },
   {
     "objectID": "notes/00_template_lecture.html",
@@ -61,5 +215,75 @@
     "title": "[LECTURE_TITLE]",
     "section": "Summary",
     "text": "Summary\n[Bullet-point recap of the main takeaways from this lecture.]\n\n[Takeaway 1]\n[Takeaway 2]\n[Takeaway 3]"
+  },
+  {
+    "objectID": "syllabus_draft.html",
+    "href": "syllabus_draft.html",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "Course Syllabus\n\n\n\nResponsible Machine Learning is the science and practice of designing algorithms and deploying AI systems in ways that are socially sustainable. This course introduces students to core technical and socio-technical objectives in responsible AI, with an emphasis on algorithmic fairness, transparency and interpretability, differential privacy, and bias and risk factors for large language models.\nThis course is sociotechnically grounded. Students will examine how and why machine learning systems can produce harmful or inequitable outcomes, and how different stakeholders (impacted communities, developers, institutions, and regulators) define “responsible” in ways that are sometimes in conflict. Students will learn to evaluate these trade-offs, while thinking carefully about mitigation techniques. There will be a focuse on communicating technical results clearly.\nThe course integrates both conceptual frameworks (ethics, governance, legal and policy constraints) and technical solutions (models with fairness and privacy constraints, explainability toolkits, and more). Students will work in Python to analyze datasets and write models, apply bias mitigation methods, generate explanations for model decisions, and explore privacy-preserving data releases. Students will also work on some problems requiring mathematical proofs and prerequisite knowledge of probability and statistics. Students will be assessed on their ability to present their work coherently and demonstrate mastery of the material.\n\n\n\n\nBy the end of this course, students will:\n\nUnderstand the motivations and stakes of responsible machine learning, including the historical and ongoing harms caused by poorly designed systems, and why sociotechnical perspectives are essential to addressing them.\nDevelop fluency with the major tools and frameworks the RML community has produced over the past two decades, including fairness metrics and constraints, interpretability and explainability methods, differential privacy, and LLM risk evaluation.\nGain hands-on experience applying this toolkit to hard, open-ended problems through structured lab work and an original research project.\n\n\n\n\n\nLab sections alternate between two types of weeks: (A) Problem weeks and (B) Presentation weeks. Students will be organized into permanent groups of three at the start of the semester (six groups total). Each group is assigned a home problem set (Set 1, 2, or 3), with two groups sharing each set.\n\n\nGroups work through their assigned problem set during lab. Problem sets consist of 1–2 challenging problems. No laptops, phones, or electronic devices are permitted. A printed reference sheet of useful formulas and prior results will be provided. Any student found using technology during an (A) week will receive a zero for that lab.\nStudents will submit notes for completion credit: one group member is responsible for photographing the group’s work (from the blackboard or paper) and uploading it to the shared drive.\n\n\n\nGroups pair with a group that worked a different problem set and present their solutions. The emphasis is not only on the correctness of the solution, but on the process: What did students notice? What was the intuition? Each presentation should last approximately 10–20 minutes and should genuinely educate the audience: both on how the solution works and on the intuition behind the problem itself.\nGrading for (B) weeks is completion-based, assessed on the quality and coherence of the presented solution. Students are expected to have put genuine thought into how they will structure their presentation. Every student must speak: at minimum, one student may serve as the designated question-answerer at the end. After (B) week, full solutions will be released for all three problem sets.\n\n\n\n\n\nShort quizzes (10 minutes), consisting of multiple-choice and true/false questions, will be held on Mondays and will cover lecture content from the preceding week. Students will vote at the start of the semester on their preferred timing within the lecture period: beginning, middle, or end. Each quiz will be worth 1 point. Students will have ~12 quizzes, though only need 10 points to acheive full credit on the quiz category towards their final grade. Thus, students could (in principle) miss up to 2 quizzes entirely and still receive full credit. For this reason, make-up quizzes will only be given under extreme circumstances.\n\n\n\n\nThe midterm and final exams share a consistent format: a section of multiple-choice and true/false questions (similar in style to the weekly quizzes) and a section of lab-style problems (similar in style to the lab problem sets, but somewhat more accessible). Students may also be asked to write some free-responses. The best preparation is a thorough understanding of all quiz questions and lab problems encountered throughout the semester.\n\n\n\n\nStudents will work in groups of two on a semester-long research project that mimics the research process applied to an open RML question. Students will be required to schedule time to meet with the instructor during instructor office hour blocks at designated project milestones.\n\n\nStudents will create and maintain a GitHub repository with the following structure:\nREADME.md              # Research question and proposed approach\ndata/                  # Data and data-loading code\nsrc/                   # Python package\n  utils/               # Helper code\n  &lt;project_name&gt;/      # Core project module\n  metrics/             # Metrics and plotting code\nexp_runner.py          # Main experiment runner\nexp_***.py             # Additional experiment scripts\nenv.yaml               # Conda environment specification\nCode must be clean, well-commented, and reproducible after correct Conda environment setup.\nA github template is available for students to use as a starting point, with templated files and already functional example imports, etc.\n\n\n\nStudents will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf. This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 6 pages of appendix are available for supplementary figures and details. Reports over 10 pages (excluding references) will receive a minor deduction.\n\n\n\nStudents will give a 10-minute presentation to the full class. Both project partners must speak. The prescribed format is:\n\nTitle slide\nProblem statement (3–5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!\nData, experimental setup, and metrics (1-3 slides): Explain how success will be evaluated.\nKey result (1 slide): Walk through a single plot or table in detail and explain what it means for the broader research question.\nSummary and takeaways (1 slide): State the conclusions clearly.\n\nPresentations are evaluated on clarity and insight. Slides that favor intuitive visuals over dense text will receive higher marks.\n\nNote: Students who produce strong projects should consider submitting their work to an actual RML workshop. The instructor will support any interested students through this process.\n\n\n\n\n\n\nHomeworks will include a variety of problems and exploration of relevant Python packages, designed to build intuition and prepare students for exams and the research project. Grading emphasizes completion over correctness, in order to incentivize authentic engagement over shortcuts (e.g., using an LLM to complete the whole thing quickly). Students who invest genuinely in the homework will be better prepared for quizzes/exams, and will also produce more interesting projects; students who do not are likely to find the course more difficult as a whole.\n\n\n\n\n\n\nThis course is designed to be largely agnostic to LLM usage. Students who rely on language models for assignments may find themselves at a disadvantage when assessments arrive, as exams and quizzes weeks are designed to test understanding. Students are softly encouraged to use LLMs for the coding portions of the research project, as this part of the class requires extensive efforts. However, the written portions of the project should reflect the joint work of both project partners, and students are discouraged from using LLMs for the article, beyond grammatical checks and cleaning up language.\n\n\n\nWhile lecture engagement is not formally graded, it is greatly appreciated. Lab sections serve as the primary participation check.\n\n\n\n\n\n\n\n\nComponent\nWeight\n\n\n\n\nQuizzes\n10%\n\n\nMidterm\n15%\n\n\nFinal Exam\n20%\n\n\nLabs\n20%\n\n\nResearch Project\n20%\n\n\nHomework\n15%\n\n\nTotal\n100%"
+  },
+  {
+    "objectID": "syllabus_draft.html#course-overview",
+    "href": "syllabus_draft.html#course-overview",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "Responsible Machine Learning is the science and practice of designing algorithms and deploying AI systems in ways that are socially sustainable. This course introduces students to core technical and socio-technical objectives in responsible AI, with an emphasis on algorithmic fairness, transparency and interpretability, differential privacy, and bias and risk factors for large language models.\nThis course is sociotechnically grounded. Students will examine how and why machine learning systems can produce harmful or inequitable outcomes, and how different stakeholders (impacted communities, developers, institutions, and regulators) define “responsible” in ways that are sometimes in conflict. Students will learn to evaluate these trade-offs, while thinking carefully about mitigation techniques. There will be a focuse on communicating technical results clearly.\nThe course integrates both conceptual frameworks (ethics, governance, legal and policy constraints) and technical solutions (models with fairness and privacy constraints, explainability toolkits, and more). Students will work in Python to analyze datasets and write models, apply bias mitigation methods, generate explanations for model decisions, and explore privacy-preserving data releases. Students will also work on some problems requiring mathematical proofs and prerequisite knowledge of probability and statistics. Students will be assessed on their ability to present their work coherently and demonstrate mastery of the material."
+  },
+  {
+    "objectID": "syllabus_draft.html#learning-goals",
+    "href": "syllabus_draft.html#learning-goals",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "By the end of this course, students will:\n\nUnderstand the motivations and stakes of responsible machine learning, including the historical and ongoing harms caused by poorly designed systems, and why sociotechnical perspectives are essential to addressing them.\nDevelop fluency with the major tools and frameworks the RML community has produced over the past two decades, including fairness metrics and constraints, interpretability and explainability methods, differential privacy, and LLM risk evaluation.\nGain hands-on experience applying this toolkit to hard, open-ended problems through structured lab work and an original research project."
+  },
+  {
+    "objectID": "syllabus_draft.html#lab-sections",
+    "href": "syllabus_draft.html#lab-sections",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "Lab sections alternate between two types of weeks: (A) Problem weeks and (B) Presentation weeks. Students will be organized into permanent groups of three at the start of the semester (six groups total). Each group is assigned a home problem set (Set 1, 2, or 3), with two groups sharing each set.\n\n\nGroups work through their assigned problem set during lab. Problem sets consist of 1–2 challenging problems. No laptops, phones, or electronic devices are permitted. A printed reference sheet of useful formulas and prior results will be provided. Any student found using technology during an (A) week will receive a zero for that lab.\nStudents will submit notes for completion credit: one group member is responsible for photographing the group’s work (from the blackboard or paper) and uploading it to the shared drive.\n\n\n\nGroups pair with a group that worked a different problem set and present their solutions. The emphasis is not only on the correctness of the solution, but on the process: What did students notice? What was the intuition? Each presentation should last approximately 10–20 minutes and should genuinely educate the audience: both on how the solution works and on the intuition behind the problem itself.\nGrading for (B) weeks is completion-based, assessed on the quality and coherence of the presented solution. Students are expected to have put genuine thought into how they will structure their presentation. Every student must speak: at minimum, one student may serve as the designated question-answerer at the end. After (B) week, full solutions will be released for all three problem sets."
+  },
+  {
+    "objectID": "syllabus_draft.html#quizzes",
+    "href": "syllabus_draft.html#quizzes",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "Short quizzes (10 minutes), consisting of multiple-choice and true/false questions, will be held on Mondays and will cover lecture content from the preceding week. Students will vote at the start of the semester on their preferred timing within the lecture period: beginning, middle, or end. Each quiz will be worth 1 point. Students will have ~12 quizzes, though only need 10 points to acheive full credit on the quiz category towards their final grade. Thus, students could (in principle) miss up to 2 quizzes entirely and still receive full credit. For this reason, make-up quizzes will only be given under extreme circumstances."
+  },
+  {
+    "objectID": "syllabus_draft.html#midterm-and-final-exam",
+    "href": "syllabus_draft.html#midterm-and-final-exam",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "The midterm and final exams share a consistent format: a section of multiple-choice and true/false questions (similar in style to the weekly quizzes) and a section of lab-style problems (similar in style to the lab problem sets, but somewhat more accessible). Students may also be asked to write some free-responses. The best preparation is a thorough understanding of all quiz questions and lab problems encountered throughout the semester."
+  },
+  {
+    "objectID": "syllabus_draft.html#research-project",
+    "href": "syllabus_draft.html#research-project",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "Students will work in groups of two on a semester-long research project that mimics the research process applied to an open RML question. Students will be required to schedule time to meet with the instructor during instructor office hour blocks at designated project milestones.\n\n\nStudents will create and maintain a GitHub repository with the following structure:\nREADME.md              # Research question and proposed approach\ndata/                  # Data and data-loading code\nsrc/                   # Python package\n  utils/               # Helper code\n  &lt;project_name&gt;/      # Core project module\n  metrics/             # Metrics and plotting code\nexp_runner.py          # Main experiment runner\nexp_***.py             # Additional experiment scripts\nenv.yaml               # Conda environment specification\nCode must be clean, well-commented, and reproducible after correct Conda environment setup.\nA github template is available for students to use as a starting point, with templated files and already functional example imports, etc.\n\n\n\nStudents will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf. This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 6 pages of appendix are available for supplementary figures and details. Reports over 10 pages (excluding references) will receive a minor deduction.\n\n\n\nStudents will give a 10-minute presentation to the full class. Both project partners must speak. The prescribed format is:\n\nTitle slide\nProblem statement (3–5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!\nData, experimental setup, and metrics (1-3 slides): Explain how success will be evaluated.\nKey result (1 slide): Walk through a single plot or table in detail and explain what it means for the broader research question.\nSummary and takeaways (1 slide): State the conclusions clearly.\n\nPresentations are evaluated on clarity and insight. Slides that favor intuitive visuals over dense text will receive higher marks.\n\nNote: Students who produce strong projects should consider submitting their work to an actual RML workshop. The instructor will support any interested students through this process."
+  },
+  {
+    "objectID": "syllabus_draft.html#homework",
+    "href": "syllabus_draft.html#homework",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "Homeworks will include a variety of problems and exploration of relevant Python packages, designed to build intuition and prepare students for exams and the research project. Grading emphasizes completion over correctness, in order to incentivize authentic engagement over shortcuts (e.g., using an LLM to complete the whole thing quickly). Students who invest genuinely in the homework will be better prepared for quizzes/exams, and will also produce more interesting projects; students who do not are likely to find the course more difficult as a whole."
+  },
+  {
+    "objectID": "syllabus_draft.html#course-policies",
+    "href": "syllabus_draft.html#course-policies",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "This course is designed to be largely agnostic to LLM usage. Students who rely on language models for assignments may find themselves at a disadvantage when assessments arrive, as exams and quizzes weeks are designed to test understanding. Students are softly encouraged to use LLMs for the coding portions of the research project, as this part of the class requires extensive efforts. However, the written portions of the project should reflect the joint work of both project partners, and students are discouraged from using LLMs for the article, beyond grammatical checks and cleaning up language.\n\n\n\nWhile lecture engagement is not formally graded, it is greatly appreciated. Lab sections serve as the primary participation check."
+  },
+  {
+    "objectID": "syllabus_draft.html#grade-breakdown",
+    "href": "syllabus_draft.html#grade-breakdown",
+    "title": "Responsible Machine Learning",
+    "section": "",
+    "text": "Component\nWeight\n\n\n\n\nQuizzes\n10%\n\n\nMidterm\n15%\n\n\nFinal Exam\n20%\n\n\nLabs\n20%\n\n\nResearch Project\n20%\n\n\nHomework\n15%\n\n\nTotal\n100%"
   }
 ]

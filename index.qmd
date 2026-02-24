@@ -1,27 +1,20 @@
 ---
-# all [bracketed] values are placeholders — fill in before publishing.
-#   [course_title]     — page title and h1 heading
-#   [course_tagline]   — one-sentence description shown below the title
-#   [instructor_name]  — full name linked in the info block
-#   [instructor_url]   — personal or faculty page url
-#   [preferred_name]   — name students use in class
-#   [meeting_times]    — e.g. "mondays, wednesdays, fridays from 10:00 to 10:50am"
-#   [room]             — e.g. "bronfman 106"
-#   [office_hours]     — e.g. "tuesdays and thursdays from 1:00 to 2:30pm"
-#   [office_location]  — e.g. "adams 213"
-#   [pset_policy]      — collaboration policy for problem sets
-#   [quiz_policy]      — quiz format and cadence
-#   [exam_policy]      — exam format and materials allowed
-#   [project_policy]   — final project overview
-#   [resources]        — textbook or course notes attribution
-title: "**[COURSE_TITLE]**"
+# remaining placeholders:
+#   [INSTRUCTOR_URL]   — personal or faculty page url
+#   [MEETING_TIMES]    — e.g. "mondays, wednesdays, fridays from 10:00 to 10:50am"
+#   [ROOM]             — e.g. "bronfman 106"
+#   [OFFICE_HOURS]     — e.g. "tuesdays and thursdays from 1:00 to 2:30pm"
+#   [OFFICE_LOCATION]  — e.g. "adams 213"
+#   [RESOURCES]        — textbook or course notes attribution
+#   [DAY_1], [DAY_2]   — days the course meets (for schedule table column headers)
+title: "**Responsible Machine Learning**"
 output:
   html_document:
     css: styles.css
 ---
 
 <center>
-*[COURSE_TAGLINE]*
+*The science and practice of designing and deploying machine learning systems that are fair, interpretable, and privacy-preserving.*
 </center>
 
 <br>
@@ -29,22 +22,24 @@ output:
 <div class="row">
   <div class="col" markdown="1">
 
-  **Instructor**: [[INSTRUCTOR_NAME]]([INSTRUCTOR_URL]). Please call me [PREFERRED_NAME].
+  **Instructor**: [Lucas Rosenblatt]([INSTRUCTOR_URL]). Please call me Lucas.
 
   **Class Times**: [MEETING_TIMES] in [ROOM].
 
   **Office Hours**: [OFFICE_HOURS] in [OFFICE_LOCATION].
 
-  **Problem Sets**: [PSET_POLICY]
+  **Homework**: Problem sets covering technical and conceptual material, graded for completion. Designed to build intuition and prepare for exams and the project.
 
   </div>
   <div class="col" markdown="1">
 
-  **Quizzes**: [QUIZ_POLICY]
+  **Labs**: Alternating problem weeks and presentation weeks, in permanent groups of three. See the [Labs](labs.html) page.
 
-  **Exams**: [EXAM_POLICY]
+  **Quizzes**: Short 10-minute quizzes on Mondays covering the prior week's lectures. ~12 total; 10 points needed for full credit.
 
-  **Project**: [PROJECT_POLICY]
+  **Exams**: Two exams (midterm + final), each with multiple-choice/true-false and lab-style problem sections.
+
+  **Project**: Semester-long project in groups of two — GitHub repo, 4-page workshop paper, and 10-minute class presentation. See the [Project](project.html) page.
 
   </div>
 </div>
@@ -54,8 +49,8 @@ output:
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td>Week</td>
-    <td>Tuesday</td>
-    <td>Thursday</td>
+    <td>[DAY 1]</td>
+    <td>[DAY 2]</td>
     <td>Slides</td>
     <td>Assignments</td>
   </tr>
@@ -68,16 +63,16 @@ output:
   <!-- regular lecture week -->
   <tr>
     <td>Week 1 ([DATE] and [DATE])</td>
-    <td><a href="notes/00_template_lecture.html">Sample Lecture</a></td>
-    <td><a href="notes/00_template_lecture.html">Sample Lecture</a></td>
-    <td><a href="slides/Week01.pdf">Slides</a></td>
-    <td><a href="[PSET_URL]">Problem Set 1</a></td>
+    <td>[Lecture Title]</td>
+    <td>[Lecture Title]</td>
+    <td></td>
+    <td></td>
   </tr>
 
   <!-- midterm week -->
   <tr>
     <td>Week N ([DATE] and [DATE])</td>
-    <td><a href="notes/0N_[TOPIC].html">[Lecture Title]</a></td>
+    <td>[Lecture Title]</td>
     <td><i>Midterm Exam</i></td>
     <td></td>
     <td></td>
@@ -100,7 +95,7 @@ output:
   <!-- final week -->
   <tr>
     <td>Week N ([DATE] and [DATE])</td>
-    <td><i>Project Preparation</i></td>
+    <td><i>Project Presentations</i></td>
     <td><i>[Reading Day / Finals / etc.] (No Class)</i></td>
     <td></td>
     <td></td>
