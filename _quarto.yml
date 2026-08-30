@@ -19,6 +19,7 @@ format:
     math: mathjax
 
 website:
+  site-url: https://lucasrosenblatt.com/cs382
   favicon: favicon.ico
   navbar:
     css: styles.css

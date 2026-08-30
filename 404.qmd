@@ -11,7 +11,7 @@ The most likely reason is **lecture slides**. Slides are posted after each lectu
 
 If you think something is genuinely broken rather than simply not posted yet, please say so on Piazza or in Slack and I will fix it.
 
-- [Course home page](/)
-- [Syllabus](/syllabus.html)
-- [Labs](/labs.html)
-- [Research Project](/project.html)
+- [Course home page](/cs382/)
+- [Syllabus](/cs382/syllabus.html)
+- [Labs](/cs382/labs.html)
+- [Research Project](/cs382/project.html)
