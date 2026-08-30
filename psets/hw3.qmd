@@ -1,0 +1,21 @@
+---
+title: "**Homework 3**"
+output:
+  html_document:
+    css: styles.css
+---
+
+*Module 4: Interpretability and Explainability*
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td>Released</td>
+    <td>Due</td>
+    <td>Time to complete</td>
+  </tr>
+  <tr>
+    <td>Monday, November 2, at the end of lecture</td>
+    <td>Friday, December 4, 5:00pm</td>
+    <td>32 days (~4.6 weeks)</td>
+  </tr>
+</table>

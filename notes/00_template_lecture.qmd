@@ -1,7 +1,4 @@
 ---
-# all [bracketed] values are placeholders — fill in before publishing.
-#   [lecture_title]  — page title and h1 heading
-#   sections below can be added, removed, or reordered as needed
 title: "**[LECTURE_TITLE]**"
 format:
   html:

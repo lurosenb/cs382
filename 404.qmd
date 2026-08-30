@@ -1,0 +1,17 @@
+---
+title: "**Page Not Found**"
+output:
+  html_document:
+    css: styles.css
+---
+
+That page does not exist, or does not exist *yet*.
+
+The most likely reason is **lecture slides**. Slides are posted after each lecture, so a link for a lecture we have not had yet will not work until that class has happened. The same goes for homework and lab solutions, which appear on their scheduled dates.
+
+If you think something is genuinely broken rather than simply not posted yet, please say so on Piazza or in Slack and I will fix it.
+
+- [Course home page](/)
+- [Syllabus](/syllabus.html)
+- [Labs](/labs.html)
+- [Research Project](/project.html)

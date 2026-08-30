@@ -7,92 +7,113 @@ output:
 
 ## Overview
 
-Lab sections alternate between two types of weeks: **(A) Problem weeks** and **(B) Presentation weeks**. Students will be organized into permanent groups of three at the start of the semester (six groups total). Each group is assigned a home problem set (Set 1, 2, or 3), with two groups sharing each set.
+Lab sections alternate between two types of weeks: **(A) Problem weeks** and **(B) Presentation weeks**. Students will be organized into groups of two. Each group will then work on a problem set (Set 1, 2, or 3).
 
 ---
 
 ## (A) Problem Weeks
 
-Groups work through their assigned problem set during lab. Problem sets consist of 1–2 challenging problems. **No laptops, phones, or electronic devices are permitted.** A printed reference sheet of useful formulas and prior results will be provided. Any student found using technology during a problem week will receive a zero for that lab.
+Groups work through their assigned problem set during lab. Problem sets consist of some shared problems, and then 1-2 challenging problems. **Problem sets are paper handouts, given out in lab.** They are not posted here or anywhere else online, so if you miss a lab you will need to come see me for a copy. **No laptops, phones, or electronic devices are permitted.** A printed reference sheet of useful formulas and prior results will be provided. Any student found using technology will receive a zero for that lab.
 
-Students will submit notes for completion credit: one group member is responsible for photographing the group's work (from the blackboard or paper) and uploading it to the shared drive.
+Students will submit notes as part of credit for the lab: one group member is responsible for photographing the group's work (from the blackboard/whiteboard or paper) and uploading it to the shared drive.
 
 ---
 
 ## (B) Presentation Weeks
 
-Groups pair with a group that worked a *different* problem set and present their solutions. The emphasis is not only on the correctness of the solution, but on the process: What did students notice? What was the intuition? Each presentation should last approximately 10–20 minutes and should genuinely educate the audience: both on how the solution works and on the intuition behind the problem itself.
+Groups pair with a group that worked a *different* problem set and present their solutions. The emphasis is not only on the correctness of the solution, but on the process: What did students notice? What was the intuition? Each presentation should last approximately 10-20 minutes and should genuinely educate the audience: both on how the solution works and on the intuition behind the problem itself.
 
-Grading for presentation weeks is completion-based, assessed on the quality and coherence of the presented solution. Students are expected to have put genuine thought into how they will structure their presentation. **Every student must speak**: at minimum, one student may serve as the designated question-answerer at the end. After presentation week, full solutions will be released for all three problem sets.
+Grading for presentation weeks is completion-based, assessed on the quality and coherence of the presented solution. Students are expected to have put genuine thought into how they will structure their presentation. **Every student must speak**. One student may serve as the designated question-answerer at the end. **Additionally, students not presenting must be active listeners, and are encouraged to ask clarification questions.** Students should be careful not to imply judgement when asking clarification, even if they have a better understanding of the question than the presenter. After presentation week, full solutions for all problems will be posted to Canvas.
 
 ---
 
 ## Schedule
 
+Labs meet **Mondays, 2:30-4:00pm**, immediately after lecture, though we start at **2:40** to give you a short break after class. There are **10 labs**: five problem weeks and five presentation weeks. Three Mondays have no lab: **Oct 12** (fall reading period), **Oct 19** (midterm solutions and questions), and **Dec 7** (project presentations, which may run past the lecture block and into lab, and will also have some final exam review).
+
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td>Lab</td>
-    <td>Week</td>
+    <td>Week (Monday)</td>
     <td>Type</td>
-    <td>Problem Set</td>
-    <td>Solutions</td>
   </tr>
 
-  <!-- lab week rows — duplicate and fill in -->
   <tr>
     <td>Lab 1</td>
-    <td>Week 2</td>
+    <td>Week 2 (Sep 14)</td>
     <td>Problem (A)</td>
-    <td>All groups work Set 1, 2, or 3</td>
-    <td>—</td>
   </tr>
+
   <tr>
     <td>Lab 2</td>
-    <td>Week 3</td>
+    <td>Week 3 (Sep 21)</td>
     <td>Presentation (B)</td>
-    <td>—</td>
-    <td><a href="labs/lab1_solutions.html">Set 1</a> · <a href="labs/lab2_solutions.html">Set 2</a> · <a href="labs/lab3_solutions.html">Set 3</a></td>
   </tr>
+
   <tr>
     <td>Lab 3</td>
-    <td>Week 5</td>
+    <td>Week 4 (Sep 28)</td>
     <td>Problem (A)</td>
-    <td>All groups work Set 1, 2, or 3</td>
-    <td>—</td>
   </tr>
+
   <tr>
     <td>Lab 4</td>
-    <td>Week 6</td>
+    <td>Week 5 (Oct 5)</td>
     <td>Presentation (B)</td>
-    <td>—</td>
-    <td><a href="labs/lab4_solutions.html">[placeholder]</a></td>
   </tr>
-  <!-- continue pattern for remaining labs -->
+
+  <tr>
+    <td>None</td>
+    <td>Week 6 (Oct 12)</td>
+    <td><i>Fall Reading Period</i></td>
+  </tr>
+
+  <tr>
+    <td>None</td>
+    <td>Week 7 (Oct 19)</td>
+    <td><i>Midterm Solutions &amp; Questions</i></td>
+  </tr>
+
+  <tr>
+    <td>Lab 5</td>
+    <td>Week 8 (Oct 26)</td>
+    <td>Problem (A)</td>
+  </tr>
+
+  <tr>
+    <td>Lab 6</td>
+    <td>Week 9 (Nov 2)</td>
+    <td>Presentation (B)</td>
+  </tr>
+
+  <tr>
+    <td>Lab 7</td>
+    <td>Week 10 (Nov 9)</td>
+    <td>Problem (A)</td>
+  </tr>
+
+  <tr>
+    <td>Lab 8</td>
+    <td>Week 11 (Nov 16)</td>
+    <td>Presentation (B)</td>
+  </tr>
+
+  <tr>
+    <td>Lab 9</td>
+    <td>Week 12 (Nov 23)</td>
+    <td>Problem (A)</td>
+  </tr>
+
+  <tr>
+    <td>Lab 10</td>
+    <td>Week 13 (Nov 30)</td>
+    <td>Presentation (B)</td>
+  </tr>
+
+  <tr>
+    <td>None</td>
+    <td>Week 14 (Dec 7)</td>
+    <td><i>Project Presentations/Exam Review</i></td>
+  </tr>
+
 </table>
-
----
-
-## Problem Set Solutions
-
-Full solutions are released after each presentation week. Links below are placeholders — each points to a formatted solution page once available.
-
-<div class="row">
-  <div class="col" markdown="1">
-
-  **Unit 1**
-
-  - [Lab 1, Set 1](labs/lab1_solutions.html)
-  - [Lab 1, Set 2](labs/lab2_solutions.html)
-  - [Lab 1, Set 3](labs/lab3_solutions.html)
-
-  </div>
-  <div class="col" markdown="1">
-
-  **Unit 2**
-
-  - [Lab 2, Set 1](labs/lab4_solutions.html)
-  - [Lab 2, Set 2](labs/lab4_solutions.html)
-  - [Lab 2, Set 3](labs/lab4_solutions.html)
-
-  </div>
-</div>

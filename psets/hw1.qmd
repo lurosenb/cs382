@@ -1,0 +1,21 @@
+---
+title: "**Homework 1**"
+output:
+  html_document:
+    css: styles.css
+---
+
+*Module 2: Fairness and Bias in ML*
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td>Released</td>
+    <td>Due</td>
+    <td>Time to complete</td>
+  </tr>
+  <tr>
+    <td>Monday, September 21, at the end of lecture</td>
+    <td>Friday, October 9, 5:00pm</td>
+    <td>18 days (~2.6 weeks)</td>
+  </tr>
+</table>

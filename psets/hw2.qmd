@@ -1,0 +1,21 @@
+---
+title: "**Homework 2**"
+output:
+  html_document:
+    css: styles.css
+---
+
+*Module 3: Data Privacy*
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td>Released</td>
+    <td>Due</td>
+    <td>Time to complete</td>
+  </tr>
+  <tr>
+    <td>Monday, October 5, at the end of lecture</td>
+    <td>Friday, November 6, 5:00pm</td>
+    <td>32 days (~4.6 weeks)</td>
+  </tr>
+</table>

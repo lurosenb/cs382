@@ -9,9 +9,25 @@ output:
 
 Students will work in **groups of two** on a semester-long research project that mimics the research process applied to an open RML question. Students will be required to schedule time to meet with the instructor during office hour blocks at designated project milestones.
 
-**Partner matching:** Submit the [partner matching form]([PARTNER_FORM_URL]) by the Week 2 deadline. Students without a partner by that deadline will be matched by the instructor.
+**Partner matching:** Submit the partner matching form (link to come) by the Week 4 deadline. Students without a partner by that deadline will be matched by the instructor.
 
 > Students who produce strong projects should consider submitting their work to an actual RML workshop. The instructor will support any interested students through this process.
+
+---
+
+## Forming a Team
+
+You choose your own partner. Pick someone you think you will genuinely work well with, which is not always the same as your closest friend in the room.
+
+Depending on enrollment the numbers may not divide evenly into pairs, so **I reserve the right to assign a third student to any group of two**. 
+
+Part of the final submission are **short paragraphs describing what each team member contributed**. This should be on a single page following the appendix.
+
+---
+
+## Computational Resources
+
+If your project needs more compute than your laptop, come talk to me. The Williams cluster is a great resource, and there are others as well.
 
 ---
 
@@ -29,12 +45,17 @@ Students will work in **groups of two** on a semester-long research project that
   </tr>
   <tr>
     <td>Partner matching</td>
-    <td>Week 2 (Sept [X])</td>
+    <td>Week 4 (Thu Oct 1, 11:59pm)</td>
     <td>Submit partner form; unmatched students paired by instructor</td>
   </tr>
   <tr>
-    <td>Proposal + instructor meeting</td>
-    <td>Week 3 (Sept [X])</td>
+    <td>Ideation meeting <em>(required)</em></td>
+    <td>Week 8 (Oct 26 to Oct 29)</td>
+    <td>Book a 15-minute slot as a pair; bring two project ideas or two areas of interest</td>
+  </tr>
+  <tr>
+    <td>Proposal</td>
+    <td>Week 9 (Mon Nov 2, 1:10pm)</td>
     <td>One-page proposal: research question, dataset, proposed approach</td>
   </tr>
 
@@ -42,14 +63,14 @@ Students will work in **groups of two** on a semester-long research project that
     <td colspan="3">Mid-Semester Check-In</td>
   </tr>
   <tr>
-    <td>Initial results + instructor meeting</td>
-    <td>Week 7 (Oct [X])</td>
-    <td>GitHub repo up to date; preliminary experiment results</td>
+    <td>Initial results</td>
+    <td>Week 11 (Mon Nov 16, 1:10pm)</td>
+    <td>GitHub repo up to date; preliminary experiment results/writing (~2 pages)</td>
   </tr>
   <tr>
-    <td>Draft paper</td>
-    <td>Week 11 (Nov [X])</td>
-    <td>Full 4-page draft submitted; instructor feedback provided</td>
+    <td>Results meeting <em>(required)</em></td>
+    <td>Week 11 (Nov 16 to Nov 19)</td>
+    <td>Book a 15-minute slot as a pair; experiment and figure list approved here</td>
   </tr>
 
   <tr class="section-header">
@@ -57,15 +78,66 @@ Students will work in **groups of two** on a semester-long research project that
   </tr>
   <tr>
     <td>Class presentations</td>
-    <td>Week 13 (Nov [X]–[X])</td>
-    <td>10-minute presentation to the full class</td>
+    <td>Week 14 (Mon Dec 7, in class)</td>
+    <td>10 to 15 minute presentation to the full class, running into the lab block if needed</td>
   </tr>
   <tr>
     <td>Final paper + repo</td>
-    <td>Week 14 (Dec [X])</td>
-    <td>Revised paper and clean, reproducible GitHub repository</td>
+    <td>Week 14 (Fri Dec 11, 11:59pm)</td>
+    <td>Final paper and clean, reproducible GitHub repository</td>
   </tr>
 </table>
+
+**Deadline times.** Anything handed in at a class meeting is due at **1:10pm**, the start of lecture. The two required meetings are not deadlines per se, you should book them anywhere inside the week listed. Failure to do so may result in a deduction to the milestone grade.
+
+**Booking the required meetings:** both meetings use the same Google appointment schedule as regular office hours, linked on Canvas and in Slack. You will book one 15-minute slot as a project pair inside the week listed above. These meetings are a requirement of the project, they are not optional.
+
+**There are no extensions on project milestones.** The schedule has meetings attached to it, so a late milestone pushes everything downstream out of alignment for you, your partner, and me.
+
+Note that there is no "full draft" submission with feedback. I will read the final paper only, UNLESS you'd like to show me work in progress during office hours, which is a great use of that time, and something I'd strongly encourage.
+
+---
+
+## The Ideation Meeting
+
+Come to this meeting with **two potential project ideas**, or, if you are not that far along, **two areas** within the broad responsible AI space where you might like to work. This is a conversation. The goal is to leave with a direction concrete enough that you can write it up as a proposal, which is due the following Monday.
+
+It is worth knowing where we will be in the course by then. At that point we will have finished **fairness** and covered roughly **half of privacy**. We will not have touched **interpretability** at all, and **LLMs** will have come up only lightly, back in Module 1. Projects in those areas are entirely welcome. Just expect that I will be more active in shaping an interpretability or LLM idea into a workable proposal than I would be for a fairness or privacy one, simply because you will have less footing there so far.
+
+---
+
+## Grading
+
+The project is worth **20% of your final grade**. Like labs and quizzes, it is scored **additively**, out of 20 points:
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td>Component</td>
+    <td>Points</td>
+  </tr>
+  <tr>
+    <td>Ideation meeting, properly prepared</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Results meeting, properly prepared</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Final presentation</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Final paper</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td><strong>Total</strong></td>
+    <td><strong>20</strong></td>
+  </tr>
+</table>
+
+The two meeting scores are about **preparation**, not about whether your idea turns out to be the right one, or your results have worked out!
 
 ---
 
@@ -91,17 +163,45 @@ Code must be clean, well-commented, and reproducible after correct Conda environ
 
 ## Deliverable 2: Workshop Paper
 
-Students will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf. This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 6 pages of appendix are available for supplementary figures and details. Reports over 10 pages (excluding references) will receive a minor deduction.
+Students will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf (I will provide a two-column template). This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 4 pages of appendix are available for supplementary figures and details. Do not make your report over 8 pages (excluding references), and do not modify the template, margins, etc. You will receive a 2 point deduction, and I will not read past the 8th page anyway.
+
+### Scope: Experiments and Figures
+
+Projects are limited to **3-5 experiments**, with **3-5 associated plots or figures**. The specific experiments and figures will be approved by the instructor at the Week 11 results meeting.
+
+Both ends of that range are deliberate. Three experiments is a good target for a credible ML paper. But too many experiments distract from the overall message, and bury the reader in results such that they may miss the point. Working inside this range forces a choice about which questions are *most* interesting, and should help you structure your exploration. Note that I am much more likely to approve you doing only **1 or 2 experiments** that are complex and interesting than I am to approve you doing more than 5.
+
+### Paper Structure
+
+Students **must** include an **introduction** and a **conclusion**. These are arguably the most important sections of the paper: the introduction primes the reader for the problem and for your contributions, and the conclusion states concisely and exactly what you want a reader to take away.
+
+Beyond those two, students are encouraged to include:
+
+- **Preliminaries**: notation, definitions, and formal setup.
+- **Methods / approach**: what was done, and why.
+- **Experimental results**: the approved experiments and figures.
+- **Discussion / takeaways**: interpretation, kept separate from the results themselves.
+
+### Theoretical Projects
+
+Students who would prefer to work on a theoretical project may request an exception to the experimental criteria. In that case the project is limited to **one main theorem** with **no more than two supporting lemmas**. Additional remarks, corollaries, and examples are fine. The intent is the same as the experimental cap: sharpen the thinking, and commit to presenting a single *main* result.
+
+The structure of the paper changes slightly in this case:
+
+- The **main theorem** appears at the end of the introduction, so the reader knows immediately what is being proved.
+- The **lemmas** take up the bulk of the body, in place of the methods and experimental results sections.
+- There is **no discussion section**; that work belongs in the introduction.
+- A **conclusion** is still required.
 
 ---
 
 ## Deliverable 3: Class Presentation
 
-Students will give a **10-minute presentation** to the full class. Both project partners must speak. The prescribed format is:
+Students will give a **10 to 15 minute presentation** to the full class on **Monday, December 7**, continuing into the lab block if the session runs long. Both project partners must speak. The prescribed format is:
 
 - **Title slide**
-- **Problem statement** (3–5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!
-- **Data, experimental setup, and metrics** (1–3 slides): Explain how success will be evaluated.
+- **Problem statement** (3-5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!
+- **Data, experimental setup, and metrics** (1-3 slides): Explain how success will be evaluated.
 - **Key result** (1 slide): Walk through a single plot or table in detail and explain what it means for the broader research question.
 - **Summary and takeaways** (1 slide): State the conclusions clearly.
 

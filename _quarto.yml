@@ -1,13 +1,13 @@
-# all [bracketed] values are placeholders — fill in before publishing.
-#   [semester]        — semester label shown in the navbar
-#   [discord_url]     — discord invite link
-#   [gradescope_url]  — gradescope course url
-
 project:
   type: website
   output-dir: docs
+  render:
+    - "**/*.qmd"
+    - "!notes/00_template_lecture.qmd"
+    - "!labs/00_template_lab_solution.qmd"
   resources:
     - psets/starter_code
+    - .nojekyll          # stop GitHub Pages running the output through Jekyll
 
 format:
   html:
@@ -22,13 +22,13 @@ website:
   favicon: favicon.ico
   navbar:
     css: styles.css
-    title: "[SEMESTER]"
+    title: "Fall 2026"
     search: false
     left:
-      - text: "Discord"
-        href: "[DISCORD_URL]"
-      - text: "Gradescope"
-        href: "[GRADESCOPE_URL]"
+      - text: "Piazza"
+        href: "[PIAZZA_URL]"
+      - text: "Slack"
+        href: "[SLACK_CHANNEL_URL]"
       - text: "Syllabus"
         href: syllabus.html
       - text: "Labs"

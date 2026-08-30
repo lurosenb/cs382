@@ -69,20 +69,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<!-- [ga_measurement_id] is the google analytics measurement id —
-     remove the gtag block if analytics is not needed. -->
-
 <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
-
-<!-- google analytics tag — remove if not needed -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=[GA_MEASUREMENT_ID]"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '[GA_MEASUREMENT_ID]');
-</script> -->
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -125,7 +113,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">[SEMESTER]</span>
+    <span class="navbar-title">Fall 2026</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -134,12 +122,12 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./[DISCORD_URL]"> 
-<span class="menu-text">Discord</span></a>
+    <a class="nav-link" href="./[PIAZZA_URL]"> 
+<span class="menu-text">Piazza</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./[GRADESCOPE_URL]"> 
-<span class="menu-text">Gradescope</span></a>
+    <a class="nav-link" href="./[SLACK_CHANNEL_URL]"> 
+<span class="menu-text">Slack</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./syllabus.html"> 
@@ -190,10 +178,22 @@ window.Quarto = {
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>Students will work in <strong>groups of two</strong> on a semester-long research project that mimics the research process applied to an open RML question. Students will be required to schedule time to meet with the instructor during office hour blocks at designated project milestones.</p>
-<p><strong>Partner matching:</strong> Submit the <a href="[PARTNER_FORM_URL]">partner matching form</a> by the Week 2 deadline. Students without a partner by that deadline will be matched by the instructor.</p>
+<p><strong>Partner matching:</strong> Submit the partner matching form (link to come) by the Week 4 deadline. Students without a partner by that deadline will be matched by the instructor.</p>
 <blockquote class="blockquote">
 <p>Students who produce strong projects should consider submitting their work to an actual RML workshop. The instructor will support any interested students through this process.</p>
 </blockquote>
+<hr>
+</section>
+<section id="forming-a-team" class="level2">
+<h2 class="anchored" data-anchor-id="forming-a-team">Forming a Team</h2>
+<p>You choose your own partner. Pick someone you think you will genuinely work well with, which is not always the same as your closest friend in the room.</p>
+<p>Depending on enrollment the numbers may not divide evenly into pairs, so <strong>I reserve the right to assign a third student to any group of two</strong>.</p>
+<p>Part of the final submission are <strong>short paragraphs describing what each team member contributed</strong>. This should be on a single page following the appendix.</p>
+<hr>
+</section>
+<section id="computational-resources" class="level2">
+<h2 class="anchored" data-anchor-id="computational-resources">Computational Resources</h2>
+<p>If your project needs more compute than your laptop, come talk to me. The Williams cluster is a great resource, and there are others as well.</p>
 <hr>
 </section>
 <section id="milestones" class="level2">
@@ -220,7 +220,7 @@ Getting Started
 Partner matching
 </td>
 <td>
-Week 2 (Sept [X])
+Week 4 (Thu Oct 1, 11:59pm)
 </td>
 <td>
 Submit partner form; unmatched students paired by instructor
@@ -228,10 +228,21 @@ Submit partner form; unmatched students paired by instructor
 </tr>
 <tr>
 <td>
-Proposal + instructor meeting
+Ideation meeting <em>(required)</em>
 </td>
 <td>
-Week 3 (Sept [X])
+Week 8 (Oct 26 to Oct 29)
+</td>
+<td>
+Book a 15-minute slot as a pair; bring two project ideas or two areas of interest
+</td>
+</tr>
+<tr>
+<td>
+Proposal
+</td>
+<td>
+Week 9 (Mon Nov 2, 1:10pm)
 </td>
 <td>
 One-page proposal: research question, dataset, proposed approach
@@ -244,24 +255,24 @@ Mid-Semester Check-In
 </tr>
 <tr>
 <td>
-Initial results + instructor meeting
+Initial results
 </td>
 <td>
-Week 7 (Oct [X])
+Week 11 (Mon Nov 16, 1:10pm)
 </td>
 <td>
-GitHub repo up to date; preliminary experiment results
+GitHub repo up to date; preliminary experiment results/writing (~2 pages)
 </td>
 </tr>
 <tr>
 <td>
-Draft paper
+Results meeting <em>(required)</em>
 </td>
 <td>
-Week 11 (Nov [X])
+Week 11 (Nov 16 to Nov 19)
 </td>
 <td>
-Full 4-page draft submitted; instructor feedback provided
+Book a 15-minute slot as a pair; experiment and figure list approved here
 </td>
 </tr>
 <tr class="section-header">
@@ -274,10 +285,10 @@ Final Deliverables
 Class presentations
 </td>
 <td>
-Week 13 (Nov [X]–[X])
+Week 14 (Mon Dec 7, in class)
 </td>
 <td>
-10-minute presentation to the full class
+10 to 15 minute presentation to the full class, running into the lab block if needed
 </td>
 </tr>
 <tr>
@@ -285,13 +296,79 @@ Week 13 (Nov [X]–[X])
 Final paper + repo
 </td>
 <td>
-Week 14 (Dec [X])
+Week 14 (Fri Dec 11, 11:59pm)
 </td>
 <td>
-Revised paper and clean, reproducible GitHub repository
+Final paper and clean, reproducible GitHub repository
 </td>
 </tr>
 </tbody></table>
+<p><strong>Deadline times.</strong> Anything handed in at a class meeting is due at <strong>1:10pm</strong>, the start of lecture. The two required meetings are not deadlines per se, you should book them anywhere inside the week listed. Failure to do so may result in a deduction to the milestone grade.</p>
+<p><strong>Booking the required meetings:</strong> both meetings use the same Google appointment schedule as regular office hours, linked on Canvas and in Slack. You will book one 15-minute slot as a project pair inside the week listed above. These meetings are a requirement of the project, they are not optional.</p>
+<p><strong>There are no extensions on project milestones.</strong> The schedule has meetings attached to it, so a late milestone pushes everything downstream out of alignment for you, your partner, and me.</p>
+<p>Note that there is no “full draft” submission with feedback. I will read the final paper only, UNLESS you’d like to show me work in progress during office hours, which is a great use of that time, and something I’d strongly encourage.</p>
+<hr>
+</section>
+<section id="the-ideation-meeting" class="level2">
+<h2 class="anchored" data-anchor-id="the-ideation-meeting">The Ideation Meeting</h2>
+<p>Come to this meeting with <strong>two potential project ideas</strong>, or, if you are not that far along, <strong>two areas</strong> within the broad responsible AI space where you might like to work. This is a conversation. The goal is to leave with a direction concrete enough that you can write it up as a proposal, which is due the following Monday.</p>
+<p>It is worth knowing where we will be in the course by then. At that point we will have finished <strong>fairness</strong> and covered roughly <strong>half of privacy</strong>. We will not have touched <strong>interpretability</strong> at all, and <strong>LLMs</strong> will have come up only lightly, back in Module 1. Projects in those areas are entirely welcome. Just expect that I will be more active in shaping an interpretability or LLM idea into a workable proposal than I would be for a fairness or privacy one, simply because you will have less footing there so far.</p>
+<hr>
+</section>
+<section id="grading" class="level2">
+<h2 class="anchored" data-anchor-id="grading">Grading</h2>
+<p>The project is worth <strong>20% of your final grade</strong>. Like labs and quizzes, it is scored <strong>additively</strong>, out of 20 points:</p>
+<table style="width: 100%; border-collapse: collapse;">
+<tbody><tr>
+<td>
+Component
+</td>
+<td>
+Points
+</td>
+</tr>
+<tr>
+<td>
+Ideation meeting, properly prepared
+</td>
+<td>
+2
+</td>
+</tr>
+<tr>
+<td>
+Results meeting, properly prepared
+</td>
+<td>
+6
+</td>
+</tr>
+<tr>
+<td>
+Final presentation
+</td>
+<td>
+6
+</td>
+</tr>
+<tr>
+<td>
+Final paper
+</td>
+<td>
+6
+</td>
+</tr>
+<tr>
+<td>
+<strong>Total</strong>
+</td>
+<td>
+<strong>20</strong>
+</td>
+</tr>
+</tbody></table>
+<p>The two meeting scores are about <strong>preparation</strong>, not about whether your idea turns out to be the right one, or your results have worked out!</p>
 <hr>
 </section>
 <section id="deliverable-1-github-repository" class="level2">
@@ -311,16 +388,43 @@ env.yaml               # conda environment specification</code></pre>
 </section>
 <section id="deliverable-2-workshop-paper" class="level2">
 <h2 class="anchored" data-anchor-id="deliverable-2-workshop-paper">Deliverable 2: Workshop Paper</h2>
-<p>Students will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf. This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 6 pages of appendix are available for supplementary figures and details. Reports over 10 pages (excluding references) will receive a minor deduction.</p>
+<p>Students will produce a 4-page article formatted as a workshop paper for an ML conference, written in Overleaf (I will provide a two-column template). This paper is the primary artifact used to evaluate the project. References will not count against this page limit. An additional 4 pages of appendix are available for supplementary figures and details. Do not make your report over 8 pages (excluding references), and do not modify the template, margins, etc. You will receive a 2 point deduction, and I will not read past the 8th page anyway.</p>
+<section id="scope-experiments-and-figures" class="level3">
+<h3 class="anchored" data-anchor-id="scope-experiments-and-figures">Scope: Experiments and Figures</h3>
+<p>Projects are limited to <strong>3-5 experiments</strong>, with <strong>3-5 associated plots or figures</strong>. The specific experiments and figures will be approved by the instructor at the Week 11 results meeting.</p>
+<p>Both ends of that range are deliberate. Three experiments is a good target for a credible ML paper. But too many experiments distract from the overall message, and bury the reader in results such that they may miss the point. Working inside this range forces a choice about which questions are <em>most</em> interesting, and should help you structure your exploration. Note that I am much more likely to approve you doing only <strong>1 or 2 experiments</strong> that are complex and interesting than I am to approve you doing more than 5.</p>
+</section>
+<section id="paper-structure" class="level3">
+<h3 class="anchored" data-anchor-id="paper-structure">Paper Structure</h3>
+<p>Students <strong>must</strong> include an <strong>introduction</strong> and a <strong>conclusion</strong>. These are arguably the most important sections of the paper: the introduction primes the reader for the problem and for your contributions, and the conclusion states concisely and exactly what you want a reader to take away.</p>
+<p>Beyond those two, students are encouraged to include:</p>
+<ul>
+<li><strong>Preliminaries</strong>: notation, definitions, and formal setup.</li>
+<li><strong>Methods / approach</strong>: what was done, and why.</li>
+<li><strong>Experimental results</strong>: the approved experiments and figures.</li>
+<li><strong>Discussion / takeaways</strong>: interpretation, kept separate from the results themselves.</li>
+</ul>
+</section>
+<section id="theoretical-projects" class="level3">
+<h3 class="anchored" data-anchor-id="theoretical-projects">Theoretical Projects</h3>
+<p>Students who would prefer to work on a theoretical project may request an exception to the experimental criteria. In that case the project is limited to <strong>one main theorem</strong> with <strong>no more than two supporting lemmas</strong>. Additional remarks, corollaries, and examples are fine. The intent is the same as the experimental cap: sharpen the thinking, and commit to presenting a single <em>main</em> result.</p>
+<p>The structure of the paper changes slightly in this case:</p>
+<ul>
+<li>The <strong>main theorem</strong> appears at the end of the introduction, so the reader knows immediately what is being proved.</li>
+<li>The <strong>lemmas</strong> take up the bulk of the body, in place of the methods and experimental results sections.</li>
+<li>There is <strong>no discussion section</strong>; that work belongs in the introduction.</li>
+<li>A <strong>conclusion</strong> is still required.</li>
+</ul>
 <hr>
+</section>
 </section>
 <section id="deliverable-3-class-presentation" class="level2">
 <h2 class="anchored" data-anchor-id="deliverable-3-class-presentation">Deliverable 3: Class Presentation</h2>
-<p>Students will give a <strong>10-minute presentation</strong> to the full class. Both project partners must speak. The prescribed format is:</p>
+<p>Students will give a <strong>10 to 15 minute presentation</strong> to the full class on <strong>Monday, December 7</strong>, continuing into the lab block if the session runs long. Both project partners must speak. The prescribed format is:</p>
 <ul>
 <li><strong>Title slide</strong></li>
-<li><strong>Problem statement</strong> (3–5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!</li>
-<li><strong>Data, experimental setup, and metrics</strong> (1–3 slides): Explain how success will be evaluated.</li>
+<li><strong>Problem statement</strong> (3-5 slides): Ensure the class has a clear understanding of the problem and why it matters. Most important part of the presentation!</li>
+<li><strong>Data, experimental setup, and metrics</strong> (1-3 slides): Explain how success will be evaluated.</li>
 <li><strong>Key result</strong> (1 slide): Walk through a single plot or table in detail and explain what it means for the broader research question.</li>
 <li><strong>Summary and takeaways</strong> (1 slide): State the conclusions clearly.</li>
 </ul>

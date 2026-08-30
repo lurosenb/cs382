@@ -1,8 +1,4 @@
 ---
-# all [bracketed] values are placeholders — fill in before publishing.
-#   [lab_number]    — e.g. "Lab 3"
-#   [set_number]    — e.g. "Set 2"
-#   [problem_title] — short name for the problem
 title: "**[LAB_NUMBER], [SET_NUMBER] Solutions**"
 format:
   html:
@@ -11,51 +7,3 @@ format:
 ---
 
 ## Problem: [PROBLEM_TITLE]
-
-[State the problem as given to students.]
-
----
-
-## Solution
-
-[Opening sentence: what the core insight is.]
-
-### Setup
-
-Let [define key quantities]. We want to show [goal].
-
-$$
-[KEY_EQUATION]
-$$
-
-### Argument
-
-[Step-by-step solution. Use display math for any non-trivial computation.]
-
-We have:
-$$
-[STEP_1] = [STEP_2] = [STEP_3]
-$$
-
-[Continue as needed.]
-
-<div class="proof-block">
-<details>
-<summary>Detailed calculation</summary>
-
-[Optional: expand a computation that is non-obvious but mechanical.]
-
-$\square$
-
-</details>
-</div>
-
-### Conclusion
-
-[State what was shown. Connect back to the problem statement.]
-
----
-
-## Intuition
-
-[A few sentences on why the result makes sense, or what a student should take away beyond the formal proof.]

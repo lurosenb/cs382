@@ -22,7 +22,7 @@ quarto preview
 
 ## what to customize
 
-### 1. brand color — `styles.css`
+### 1. brand color: `styles.css`
 
 change the three css variables at the top of the file. everything (navbar, table headers, section dividers, proof block borders) updates automatically.
 
@@ -35,19 +35,19 @@ change the three css variables at the top of the file. everything (navbar, table
 }
 ```
 
-### 2. site metadata — `_quarto.yml`
+### 2. site metadata: `_quarto.yml`
 
-fill in `[SEMESTER]`, `[DISCORD_URL]`, and `[GRADESCOPE_URL]`. these control the navbar title and links.
+set the navbar title (the semester label) and the links under `website: navbar: left:`.
 
-### 3. landing page — `index.qmd`
+### 3. landing page: `index.qmd`
 
-the yaml comment block at the top lists every `[PLACEHOLDER]` in the file. fill in the two-column info block and duplicate/fill the week rows in the schedule table. each row type (lecture, midterm, break) has a labeled example.
+fill in the two-column info block and the week rows in the schedule table. any remaining `[BRACKETED]` values are placeholders; grep for `\[[A-Z_]*\]` to find them.
 
-### 4. syllabus — `syllabus.qmd`
+### 4. syllabus: `syllabus.qmd`
 
-same pattern — yaml comment block lists all placeholders. replace the bracketed descriptions with course-specific language.
+same pattern: replace any remaining bracketed values with course-specific language.
 
-### 5. lecture notes — `notes/`
+### 5. lecture notes: `notes/`
 
 `00_template_lecture.qmd` is the note template. for each lecture:
 
@@ -59,11 +59,11 @@ same pattern — yaml comment block lists all placeholders. replace the brackete
 ### 6. slides and problem sets
 
 - drop weekly slide pdfs into `slides/` as `Week01.pdf`, `Week02.pdf`, etc.
-- drop problem set notebooks into `psets/starter_code/` — they are copied as static assets on render.
+- drop problem set notebooks into `psets/starter_code/`: they are copied as static assets on render.
 
-### 7. analytics — `header.html`
+### 7. analytics: `header.html`
 
-the google analytics block is commented out. uncomment and replace `[GA_MEASUREMENT_ID]` to enable it.
+`header.html` is injected into every page's `<head>`. it currently loads mathjax; add an analytics snippet here if you want one.
 
 ---
 

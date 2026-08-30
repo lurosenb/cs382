@@ -1,20 +1,12 @@
 ---
-# remaining placeholders:
-#   [INSTRUCTOR_URL]   — personal or faculty page url
-#   [MEETING_TIMES]    — e.g. "mondays, wednesdays, fridays from 10:00 to 10:50am"
-#   [ROOM]             — e.g. "bronfman 106"
-#   [OFFICE_HOURS]     — e.g. "tuesdays and thursdays from 1:00 to 2:30pm"
-#   [OFFICE_LOCATION]  — e.g. "adams 213"
-#   [RESOURCES]        — textbook or course notes attribution
-#   [DAY_1], [DAY_2]   — days the course meets (for schedule table column headers)
-title: "**Responsible Machine Learning**"
+title: "**CSCI 382 Responsible AI/ML**"
 output:
   html_document:
     css: styles.css
 ---
 
 <center>
-*The science and practice of designing and deploying machine learning systems that are fair, interpretable, and privacy-preserving.*
+*The theory, science and practice of designing and deploying socio-technically responsible machine learning systems.*
 </center>
 
 <br>
@@ -22,83 +14,186 @@ output:
 <div class="row">
   <div class="col" markdown="1">
 
-  **Instructor**: [Lucas Rosenblatt]([INSTRUCTOR_URL]). Please call me Lucas.
+  **Instructor**: [Lucas Rosenblatt](https://lucasrosenblatt.com/). Please call me Lucas.
 
-  **Class Times**: [MEETING_TIMES] in [ROOM].
+  **Class Times**: Mondays and Thursdays, 1:10-2:25pm in [ROOM].
 
-  **Office Hours**: [OFFICE_HOURS] in [OFFICE_LOCATION].
+  **Office Hours**: In **TCL 308**. Open drop-in on Wednesdays, 1:30-2:30pm. Appointment blocks Mondays 4:00-5:00pm and Thursdays 2:30-3:30pm; see the [syllabus](syllabus.html) for how to book.
 
-  **Homework**: Problem sets covering technical and conceptual material, graded for completion. Designed to build intuition and prepare for exams and the project.
+  **Communication**: [Piazza]([PIAZZA_URL]) for content questions; [Slack]([SLACK_CHANNEL_URL]) for casual discussion and team coordination. Please try to use these channels before emailing me; see the [syllabus](syllabus.html) for which to use when.
 
   </div>
   <div class="col" markdown="1">
 
-  **Labs**: Alternating problem weeks and presentation weeks, in permanent groups of three. See the [Labs](labs.html) page.
+  **Labs**: Mondays, 2:30-4:00pm in [LAB_ROOM]. Alternating problem weeks and presentation weeks. See the [Labs](labs.html) page.
 
-  **Quizzes**: Short 10-minute quizzes on Mondays covering the prior week's lectures. ~12 total; 10 points needed for full credit.
+  **Quizzes**: Short quizzes on Mondays covering the prior week's lectures or a recent homework. 10 total, 1 point each and additive, and you start with 1 point banked, so you can miss one and still earn full credit.
 
-  **Exams**: Two exams (midterm + final), each with multiple-choice/true-false and lab-style problem sections.
+  **Exams**: Midterm in class on Thu Oct 15. We will vote to decide whether the final is in the December exam period or in the last lecture block on Thu Dec 10.
 
-  **Project**: Semester-long project in groups of two — GitHub repo, 4-page workshop paper, and 10-minute class presentation. See the [Project](project.html) page.
+  **Project**: Semester-long project in groups of two. See the [Project](project.html) page.
 
   </div>
 </div>
 
-**Resources**: [RESOURCES]
+**Some Potentially Useful Resources**: [Fairness and Machine Learning](https://fairmlbook.org/) | [CS 860: Algorithms for Private Data Analysis](https://www.gautamkamath.com/CS860-fa2020.html) | [Review of Probability Theory](https://cs229.stanford.edu/section/cs229-prob.pdf)
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td>Week</td>
-    <td>[DAY 1]</td>
-    <td>[DAY 2]</td>
-    <td>Slides</td>
+    <td>Monday</td>
+    <td>Thursday</td>
+    <td class="lab-col">Lab</td>
+    <td>Project</td>
     <td>Assignments</td>
   </tr>
 
-  <!-- unit divider — add one per unit, remove if the course has no units -->
   <tr class="section-header">
-    <td colspan="5">[Unit 1 Title]</td>
+    <td colspan="6">Module 1: AI as Normal Technology</td>
   </tr>
 
-  <!-- regular lecture week -->
   <tr>
-    <td>Week 1 ([DATE] and [DATE])</td>
-    <td>[Lecture Title]</td>
-    <td>[Lecture Title]</td>
+    <td>Week 1 (Sep 10)</td>
+    <td><i>No class</i></td>
+    <td><a href="slides/module1/lecture_1.pdf">The "State of Play"</a></td>
+    <td class="lab-col"></td>
     <td></td>
     <td></td>
   </tr>
 
-  <!-- midterm week -->
   <tr>
-    <td>Week N ([DATE] and [DATE])</td>
-    <td>[Lecture Title]</td>
-    <td><i>Midterm Exam</i></td>
+    <td>Week 2 (Sep 14 and Sep 17)</td>
+    <td><a href="slides/module1/lecture_2.pdf">Normal Technology, Part 1</a></td>
+    <td><a href="slides/module1/lecture_3.pdf">Normal Technology, Part 2</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 1 (A)</a></td>
     <td></td>
     <td></td>
   </tr>
 
-  <!-- break week -->
-  <tr>
-    <td>Week N ([DATE] and [DATE])</td>
-    <td><i>[Break Name] (No Class)</i></td>
-    <td><i>[Break Name] (No Class)</i></td>
-    <td></td>
-    <td></td>
-  </tr>
-
-  <!-- unit divider — duplicate section as needed -->
   <tr class="section-header">
-    <td colspan="5">[Unit 2 Title]</td>
+    <td colspan="6">Module 2: Fairness and Bias in ML</td>
   </tr>
 
-  <!-- final week -->
   <tr>
-    <td>Week N ([DATE] and [DATE])</td>
-    <td><i>Project Presentations</i></td>
-    <td><i>[Reading Day / Finals / etc.] (No Class)</i></td>
+    <td>Week 3 (Sep 21 and Sep 24)</td>
+    <td><a href="slides/module2/lecture_4.pdf">Fairness and Bias in ML</a></td>
+    <td><a href="slides/module2/lecture_5.pdf">Fairness Criteria and Impossibility</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 2 (B)</a></td>
     <td></td>
+    <td>Quiz 1 | <a href="psets/hw1.html"><strong>HW1 out</strong></a></td>
+  </tr>
+
+  <tr>
+    <td>Week 4 (Sep 28 and Oct 1)</td>
+    <td><a href="slides/module2/lecture_6.pdf">Thresholds and Post-Processing</a></td>
+    <td><a href="slides/module2/lecture_7.pdf">Bias Across the ML Pipeline</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 3 (A)</a></td>
+    <td><a href="project.html">Partner matching due (Thu, 11:59pm)</a></td>
+    <td>Quiz 2</td>
+  </tr>
+
+  <tr class="section-header">
+    <td colspan="6">Module 3: Data Privacy</td>
+  </tr>
+
+  <tr>
+    <td>Week 5 (Oct 5 and Oct 8)</td>
+    <td><a href="slides/module3/lecture_8.pdf">Data Privacy</a></td>
+    <td><a href="slides/module3/lecture_9.pdf">Defining Differential Privacy</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 4 (B)</a></td>
+    <td></td>
+    <td>Quiz 3 | <a href="psets/hw2.html"><strong>HW2 out</strong></a> | <a href="psets/hw1.html"><strong>HW1 due Oct 9, 5pm</strong></a></td>
+  </tr>
+
+  <tr>
+    <td>Week 6 (Oct 12 and Oct 15)</td>
+    <td><i>Fall Reading Period (No Class)</i></td>
+    <td><strong><i>Midterm Exam</i></strong></td>
+    <td class="lab-col"><i>No lab</i></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Week 7 (Oct 19 and Oct 22)</td>
+    <td><a href="slides/module3/lecture_10.pdf">The Laplace Mechanism</a></td>
+    <td><a href="slides/module3/lecture_11.pdf">Composition and What DP Promises</a></td>
+    <td class="lab-col"><i>No lab</i></td>
+    <td></td>
+    <td>Quiz 4</td>
+  </tr>
+
+  <tr>
+    <td>Week 8 (Oct 26 and Oct 29)</td>
+    <td><a href="slides/module3/lecture_12.pdf">DP Synthetic Data</a></td>
+    <td><a href="slides/module3/lecture_13.pdf">Approximate DP and Gaussian Noise</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 5 (A)</a></td>
+    <td><a href="project.html">Ideation meeting (book a slot)</a></td>
+    <td>Quiz 5</td>
+  </tr>
+
+  <tr class="section-header">
+    <td colspan="6">Module 4: Interpretability and Explainability</td>
+  </tr>
+
+  <tr>
+    <td>Week 9 (Nov 2 and Nov 5)</td>
+    <td><a href="slides/module3/lecture_14.pdf">Local DP in Practice</a></td>
+    <td><a href="slides/module4/lecture_15.pdf">Interpretability and Explainability</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 6 (B)</a></td>
+    <td><a href="project.html">Proposal due (Mon, 1:10pm)</a></td>
+    <td>Quiz 6 | <a href="psets/hw3.html"><strong>HW3 out</strong></a> | <a href="psets/hw2.html"><strong>HW2 due Nov 6, 5pm</strong></a></td>
+  </tr>
+
+  <tr>
+    <td>Week 10 (Nov 9 and Nov 12)</td>
+    <td><a href="slides/module4/lecture_16.pdf">Shapley Values</a></td>
+    <td><a href="slides/module4/lecture_17.pdf">SHAP at Scale</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 7 (A)</a></td>
+    <td></td>
+    <td>Quiz 7</td>
+  </tr>
+
+  <tr>
+    <td>Week 11 (Nov 16 and Nov 19)</td>
+    <td><a href="slides/module4/lecture_18.pdf">Auditing Ad Delivery</a></td>
+    <td><a href="slides/module4/lecture_19.pdf">Transparency and the Law</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 8 (B)</a></td>
+    <td><a href="project.html">Initial results due (Mon, 1:10pm) | Results meeting (book a slot)</a></td>
+    <td>Quiz 8</td>
+  </tr>
+
+  <tr>
+    <td>Week 12 (Nov 23 and Nov 26)</td>
+    <td><a href="slides/module4/lecture_20.pdf">Probing, Patching, and Circuits</a></td>
+    <td><i>Thanksgiving Recess (No Class)</i></td>
+    <td class="lab-col"><a href="labs.html">Lab 9 (A)</a></td>
+    <td></td>
+    <td>Quiz 9</td>
+  </tr>
+
+  <tr class="section-header">
+    <td colspan="6">Module 5: LLM Risks and the State of AI Research</td>
+  </tr>
+
+  <tr>
+    <td>Week 13 (Nov 30 and Dec 3)</td>
+    <td><a href="slides/module5/lecture_20.pdf">R/AI and LLMs (Part 1)</a></td>
+    <td><a href="slides/module5/lecture_21.pdf">R/AI and LLMs (Part 2)</a></td>
+    <td class="lab-col"><a href="labs.html">Lab 10 (B)</a></td>
+    <td></td>
+    <td>Quiz 10 | <a href="psets/hw3.html"><strong>HW3 due Dec 4, 5pm</strong></a></td>
+  </tr>
+
+  <tr>
+    <td>Week 14 (Dec 7 and Dec 10)</td>
+    <td><strong><i>Project Presentations</i></strong></td>
+    <td><strong><i>Final Exam (if class votes for this slot)</i></strong></td>
+    <td class="lab-col"><i>No lab</i></td>
+    <td><a href="project.html">Presentations (Mon, in class) | Final paper due (Fri Dec 11, 11:59pm)</a></td>
     <td></td>
   </tr>
 
 </table>
+
+<small>In the Lab column, **(A)** marks a problem week and **(B)** a presentation week. Three Mondays have no lab: Oct 12 (reading period), Oct 19 (midterm solutions), and Dec 7 (project presentations run long). See the [Labs](labs.html) page.</small>

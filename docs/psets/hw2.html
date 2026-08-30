@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>[LECTURE_TITLE]</title>
+<title>Homework 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,20 +69,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<!-- [ga_measurement_id] is the google analytics measurement id —
-     remove the gtag block if analytics is not needed. -->
-
 <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
-
-<!-- google analytics tag — remove if not needed -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=[GA_MEASUREMENT_ID]"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '[GA_MEASUREMENT_ID]');
-</script> -->
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -125,7 +113,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">[SEMESTER]</span>
+    <span class="navbar-title">Fall 2026</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -134,12 +122,12 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../[DISCORD_URL]"> 
-<span class="menu-text">Discord</span></a>
+    <a class="nav-link" href="../[PIAZZA_URL]"> 
+<span class="menu-text">Piazza</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../[GRADESCOPE_URL]"> 
-<span class="menu-text">Gradescope</span></a>
+    <a class="nav-link" href="../[SLACK_CHANNEL_URL]"> 
+<span class="menu-text">Slack</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../syllabus.html"> 
@@ -164,34 +152,18 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a>
-  <ul class="collapse">
-  <li><a href="#key-definition" id="toc-key-definition" class="nav-link" data-scroll-target="#key-definition">Key Definition</a></li>
-  </ul></li>
-  <li><a href="#main-result" id="toc-main-result" class="nav-link" data-scroll-target="#main-result">Main Result</a></li>
-  <li><a href="#algorithm" id="toc-algorithm" class="nav-link" data-scroll-target="#algorithm">Algorithm</a></li>
-  <li><a href="#example-illustration" id="toc-example-illustration" class="nav-link" data-scroll-target="#example-illustration">Example / Illustration</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><strong>[LECTURE_TITLE]</strong></h1>
+<h1 class="title"><strong>Homework 2</strong></h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -203,67 +175,34 @@ window.Quarto = {
 </header>
 
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>[Motivate the topic. What problem is being solved? Why does it matter? Link to real-world examples or prior lecture concepts as appropriate.]</p>
-</section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>[Review any prerequisite definitions or results needed before the main content.]</p>
-<section id="key-definition" class="level3">
-<h3 class="anchored" data-anchor-id="key-definition">Key Definition</h3>
-<p>Let <span class="math inline">\(X\)</span> be [a random variable / a matrix / etc.]. We define [TERM] as:</p>
-<p><span class="math display">\[
-[EQUATION]
-\]</span></p>
-</section>
-</section>
-<section id="main-result" class="level2">
-<h2 class="anchored" data-anchor-id="main-result">Main Result</h2>
-<p><strong>Theorem ([THEOREM_NAME]):</strong> [State the theorem precisely.]</p>
-<p><em>Proof sketch:</em> [Summarize the key ideas without full rigor, or use the proof block below.]</p>
-<div class="proof-block">
-<details>
-<summary>
-Proof
-</summary>
-<p>[Full proof here. Use <code>$...$</code> for inline math and <code>$$...$$</code> for display math.]</p>
-<p>We have: <span class="math display">\[
-[EQUATION_STEP_1] = [EQUATION_STEP_2]
-\]</span></p>
-<p>[Continue the argument…]</p>
-<p><span class="math inline">\(\square\)</span></p>
-</details>
-</div>
-</section>
-<section id="algorithm" class="level2">
-<h2 class="anchored" data-anchor-id="algorithm">Algorithm</h2>
-<p>[Describe the algorithm in pseudocode or prose.]</p>
-<p><strong>Input:</strong> [what the algorithm takes] <strong>Output:</strong> [what it returns]</p>
-<ol type="1">
-<li>[Step 1]</li>
-<li>[Step 2]</li>
-<li>Return [OUTPUT]</li>
-</ol>
-<p><strong>Complexity:</strong> [Time and/or space complexity with brief justification.]</p>
-</section>
-<section id="example-illustration" class="level2">
-<h2 class="anchored" data-anchor-id="example-illustration">Example / Illustration</h2>
-<p><img src="images/[IMAGE_FILENAME].png" class="responsive-img" alt="[ALT_TEXT]"></p>
-<p>[Caption or explanation of the figure.]</p>
-</section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>[Bullet-point recap of the main takeaways from this lecture.]</p>
-<ul>
-<li>[Takeaway 1]</li>
-<li>[Takeaway 2]</li>
-<li>[Takeaway 3]</li>
-</ul>
+<p><em>Module 3: Data Privacy</em></p>
+<table style="width: 100%; border-collapse: collapse;">
+<tbody><tr>
+<td>
+Released
+</td>
+<td>
+Due
+</td>
+<td>
+Time to complete
+</td>
+</tr>
+<tr>
+<td>
+Monday, October 5, at the end of lecture
+</td>
+<td>
+Friday, November 6, 5:00pm
+</td>
+<td>
+32 days (~4.6 weeks)
+</td>
+</tr>
+</tbody></table>
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

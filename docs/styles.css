@@ -1,10 +1,40 @@
 /* --brand-color drives the navbar, table headers, and section dividers.
    currently set to williams college (purple #362061, gold #fecc06). */
 :root {
-  --brand-color: #362061;        /* primary — navbar and table header background */
-  --brand-color-light: #5a3d8a;  /* secondary — section-header row background */
-  --brand-color-tint: #ede8f5;   /* tint — alternating table row background */
-  --brand-accent: #FECC06;       /* accent — proof block border */
+  --brand-color: #362061;        /* primary: navbar and table header background */
+  --brand-color-light: #5a3d8a;  /* secondary: section-header row background */
+  --brand-color-tint: #ede8f5;   /* tint: alternating table row background */
+  --brand-accent: #FECC06;       /* accent: proof block border, link underline */
+  --brand-link: #8F6B00;         /* link text: deepened gold, 4.9:1 on white */
+  --brand-link-hover: #6F5400;   /* link hover: deeper still, 7.1:1 on white */
+}
+
+/* ── Links ──────────────────────────────────────────────────────────────
+   Body links are Williams gold rather than the default Bootstrap blue.
+   Pure #FECC06 only reaches 1.5:1 against white, well under the 4.5:1
+   WCAG AA needs, so the text uses a deepened gold and the bright accent
+   is carried by the underline, where thickness does the work instead of
+   contrast. Navbar links are excluded; they stay white on purple. */
+main a:not(.anchorjs-link):not(.quarto-title-meta-heading) {
+  color: var(--brand-link);
+  text-decoration: underline;
+  text-decoration-color: var(--brand-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+main a:not(.anchorjs-link):hover,
+main a:not(.anchorjs-link):focus {
+  color: var(--brand-link-hover);
+  text-decoration-color: var(--brand-accent);
+  text-decoration-thickness: 3px;
+}
+
+/* links inside the purple section-divider rows stay legible on purple */
+.section-header a,
+.section-header a:hover {
+  color: #FFFFFF;
+  text-decoration-color: var(--brand-accent);
 }
 
 /* ── Layout ─────────────────────────────────────────────────────────── */
@@ -19,8 +49,29 @@
   background-color: var(--brand-color);
 }
 
-.navbar .navbar-brand, .nav-link {
+/* The site title stays white so it reads as the identity, not as a link. */
+.navbar .navbar-brand {
   color: #FFFFFF;
+}
+
+/* Nav links use the true Williams gold. Against the purple bar that is
+   9.0:1, so unlike body text on white it needs no darkening. Underline is
+   held transparent and revealed on hover, since permanent underlines up
+   here would clutter the bar. */
+.navbar .nav-link {
+  color: var(--brand-accent);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: #FFFFFF;
+  text-decoration-color: var(--brand-accent);
 }
 
 /* ── Schedule table ─────────────────────────────────────────────────── */
@@ -41,6 +92,13 @@ tr:nth-child(even), th {
 
 table td, table th {
   padding-left: 10px;
+}
+
+/* Keep "Lab 10 (B)" on a single line. Without this the column collapses to
+   the width of "Lab" and the (A)/(B) marker wraps onto its own row. The
+   column then sizes itself to the widest entry rather than a fixed width. */
+.lab-col {
+  white-space: nowrap;
 }
 
 .section-header {
