@@ -169,7 +169,7 @@ output:
     <td><i>Thanksgiving Recess (No Class)</i></td>
     <td class="lab-col"><a href="labs.html">Lab 9 (A)</a></td>
     <td></td>
-    <td>Quiz 9</td>
+    <td>Quiz 9 | <a href="psets/hw3.html"><strong>HW3 due Nov 24, 5pm</strong></a></td>
   </tr>
 
   <tr class="section-header">
@@ -182,7 +182,7 @@ output:
     <td><a href="slides/module5/lecture_21.pdf">R/AI and LLMs (Part 2)</a></td>
     <td class="lab-col"><a href="labs.html">Lab 10 (B)</a></td>
     <td></td>
-    <td>Quiz 10 | <a href="psets/hw3.html"><strong>HW3 due Dec 4, 5pm</strong></a></td>
+    <td>Quiz 10</td>
   </tr>
 
   <tr>

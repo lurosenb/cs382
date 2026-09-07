@@ -64,7 +64,7 @@ A few things to know about how I will use Piazza and Slack:
 3. I will try my best to respond within 24 hours to messages / questions, except on weekends and during breaks, when my responses may be heavily delayed. I will always try to respond sooner near a deadline.
 4. A direct message through Slack is my strongly preferred method of 1:1 communication in this course, in place of emails.
 
-One practical consequence of the above: homework is due at 5:00pm on a Friday, and I do not check messages over the weekend. **I make no promises about questions sent after Thursday evening on a Friday-due assignment.** If you want a reliable answer, ask by Thursday afternoon.
+One practical consequence of the above: homework is due at 5:00pm, and I do not check messages over the weekend. **I make no promises about questions sent in the last day before a deadline, or over a weekend immediately preceding one.** For a Friday-due homework, that means asking by Thursday afternoon if you want a reliable answer. HW3 is due on **Tuesday, November 24**, so try to ask by **Friday, November 20**.
 
 
 Please do not email me if any of the above methods of communication would suffice, which they should for the majority of matters (an example of an appropriate email topic: "This is my accommodation letter...").
@@ -137,7 +137,7 @@ Homeworks will include interactive problems and leverage python / python package
 
 Students who invest genuinely in the homework will be better prepared for quizzes/exams. In particular, certain quizzes will solely focus on a recently turned in homework; for those quizzes, the best (potentially only) preparation will be to have actively completed the homework. Students who do not spend time on homeworks are likely to find the course more difficult as a whole.
 
-Each homework is released **at the end of the Monday lecture** in the week it comes out, and is due at **5:00pm on the Friday** of the week it is due. Because homeworks run long, a new one will typically be released a few days before the previous one is due; that overlap is deliberate, and is not a reason to leave the earlier one until the last minute.
+Each homework is released **at the end of the Monday lecture** in the week it comes out, and is due at **5:00pm**. HW1 and HW2 are due on a **Friday**; **HW3 is due on Tuesday, November 24** due to wanting you to enjoy your Thanksgiving break fully. The [course home page](index.html) lists every due date. Because homeworks run long, a new one will typically be released a few days before the previous one is due; that overlap is deliberate, and is not a reason to leave the earlier one until the last minute.
 
 Every student gets **2 floating late days** for the semester, to spend however they like: both on a single homework, or one each on two different homeworks. No request or explanation is needed; just use them. Note that lateness is counted in whole days, so an assignment handed in ten minutes past the deadline costs a full late day, the same as one handed in twenty hours late. Due to the flexibility of this policy, I will be very unlikely to grant additional late days beyond these 2. 
 
