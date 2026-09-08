@@ -31,11 +31,11 @@ A few norms: **(1)** disagreement is expected, but please be courteous in voicin
 
 **Prerequisites:** [CSCI 270 (Foundations of Artificial Intelligence)](https://catalog.williams.edu/csci/detail/?cn=270&crsid=023017&req_year=0) and/or upper-level mathematics coursework: MATH 200 (Discrete Mathematics), [MATH/STAT 341 (Probability)](https://catalog.williams.edu/stat/detail/?cn=341&crsid=011677&req_year=0), STAT 201 (Statistics and Data Analysis), or the equivalent. If you have comparable background from elsewhere, come talk to me.
 
-**Structure:** Lecture meets Mondays and Thursdays, 1:10-2:25pm in [ROOM]. Lab meets Mondays, 2:30-4:00pm in [LAB_ROOM].
+**Structure:** Lecture meets Mondays and Thursdays, 1:10-2:25pm in **Schow Classroom 030B**. Lab meets Mondays, 2:30-4:00pm in **Biology (TBL) 301**.
 
 **Office Hours:** All office hours are held in my office, **TCL 308**, and come in two forms:
 
-- **Drop-in (Wednesdays, 1:30-2:30pm).** No appointment needed. I will be in my office for the whole block; just stop by.
+- **Drop-in (Wednesdays, 2:00-3:00pm).** No appointment needed. I will be in my office for the whole block; just stop by.
 - **By appointment (Mondays 4:00-5:00pm and Thursdays 2:30-3:30pm).** These follow lab and lecture respectively. Book a **15-minute** slot, or two consecutive slots if you need longer, **at least one day in advance**. Outside of booked appointments I will not be in my office during these blocks, so please do not drop in on Mondays or Thursdays without a booking!
 
 Appointments are booked through a Google appointment schedule. The link will be posted on Canvas and in Slack rather than on this public page. Because there are many of these slots and they are always available, please do not message me asking for additional meeting times; book a slot instead. I may also hold **additional office hours around the midterm and the final**, at my discretion, announced on Piazza and Slack.
@@ -53,9 +53,9 @@ Appointments are booked through a Google appointment schedule. The link will be 
 
 **Communication:** This course uses two main forms of communicating.
 
-*[Piazza]([PIAZZA_URL]): content.* Use Piazza for anything technical: lecture material, problem sets, labs, or the project. Piazza handles code blocks and formal mathematical notation properly, which makes it much better suited to these questions than chat or email. Questions that are only loosely related to the course are welcome as well. Piazza also supports genuinely anonymous posting, so please use that if it makes a question easier to ask.
+*[Piazza](https://piazza.com/williams/fall2026/cs382): content.* Use Piazza for anything technical: lecture material, problem sets, labs, or the project. Piazza handles code blocks and formal mathematical notation properly, which makes it much better suited to these questions than chat or email. Questions that are only loosely related to the course are welcome as well. Piazza also supports genuinely anonymous posting, so please use that if it makes a question easier to ask.
 
-*[Slack]([SLACK_CHANNEL_URL]): casual/coordination.* Slack is the place for informal course questions, for discussion among yourselves, for setting up project team channels, for posting memes, and for coordinating study groups ahead of the midterm and final.
+*[Slack](https://cs382.slack.com): casual/coordination.* Slack is the place for informal course questions, for discussion among yourselves, for setting up project team channels, for posting memes, and for coordinating study groups ahead of the midterm and final.
 
 A few things to know about how I will use Piazza and Slack:
 

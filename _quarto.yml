@@ -27,9 +27,9 @@ website:
     search: false
     left:
       - text: "Piazza"
-        href: "[PIAZZA_URL]"
+        href: "https://piazza.com/williams/fall2026/cs382"
       - text: "Slack"
-        href: "[SLACK_CHANNEL_URL]"
+        href: "https://cs382.slack.com"
       - text: "Syllabus"
         href: syllabus.html
       - text: "Labs"

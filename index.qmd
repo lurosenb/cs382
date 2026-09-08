@@ -16,16 +16,16 @@ output:
 
   **Instructor**: [Lucas Rosenblatt](https://lucasrosenblatt.com/). Please call me Lucas.
 
-  **Class Times**: Mondays and Thursdays, 1:10-2:25pm in [ROOM].
+  **Class Times**: Mondays and Thursdays, 1:10-2:25pm in **Schow Classroom 030B**.
 
-  **Office Hours**: In **TCL 308**. Open drop-in on Wednesdays, 1:30-2:30pm. Appointment blocks Mondays 4:00-5:00pm and Thursdays 2:30-3:30pm; see the [syllabus](syllabus.html) for how to book.
+  **Office Hours**: In **TCL 308**. Open drop-in on Wednesdays, 2:00-3:00pm. Appointment blocks Mondays 4:00-5:00pm and Thursdays 2:30-3:30pm; see the [syllabus](syllabus.html) for how to book.
 
-  **Communication**: [Piazza]([PIAZZA_URL]) for content questions; [Slack]([SLACK_CHANNEL_URL]) for casual discussion and team coordination. Please try to use these channels before emailing me; see the [syllabus](syllabus.html) for which to use when.
+  **Communication**: [Piazza](https://piazza.com/williams/fall2026/cs382) for content questions; [Slack](https://cs382.slack.com) for casual discussion and team coordination. Please try to use these channels before emailing me; see the [syllabus](syllabus.html) for which to use when.
 
   </div>
   <div class="col" markdown="1">
 
-  **Labs**: Mondays, 2:30-4:00pm in [LAB_ROOM]. Alternating problem weeks and presentation weeks. See the [Labs](labs.html) page.
+  **Labs**: Mondays, 2:30-4:00pm in **Biology (TBL) 301**. Alternating problem weeks and presentation weeks. See the [Labs](labs.html) page.
 
   **Quizzes**: Short quizzes on Mondays covering the prior week's lectures or a recent homework. 10 total, 1 point each and additive, and you start with 1 point banked, so you can miss one and still earn full credit.
 

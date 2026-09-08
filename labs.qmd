@@ -29,7 +29,7 @@ Grading for presentation weeks is completion-based, assessed on the quality and 
 
 ## Schedule
 
-Labs meet **Mondays, 2:30-4:00pm**, immediately after lecture, though we start at **2:40** to give you a short break after class. There are **10 labs**: five problem weeks and five presentation weeks. Three Mondays have no lab: **Oct 12** (fall reading period), **Oct 19** (midterm solutions and questions), and **Dec 7** (project presentations, which may run past the lecture block and into lab, and will also have some final exam review).
+Labs meet **Mondays, 2:30-4:00pm** in **Biology (TBL) 301**, immediately after lecture, though we start at **2:40** to give you a short break after class. There are **10 labs**: five problem weeks and five presentation weeks. Three Mondays have no lab: **Oct 12** (fall reading period), **Oct 19** (midterm solutions and questions), and **Dec 7** (project presentations, which may run past the lecture block and into lab, and will also have some final exam review).
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
