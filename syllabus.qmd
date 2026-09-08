@@ -7,7 +7,7 @@ output:
 
 ## Course Description
 
-Responsible Machine Learning is the science and practice of designing algorithms and deploying AI systems in ways that are socially sustainable. This course introduces students to core technical and socio-technical objectives in responsible AI, with an emphasis on algorithmic fairness, transparency and interpretability, differential privacy, and bias and risk factors for large language models.
+Responsible AI/Machine Learning is the science and practice of designing algorithms and deploying AI systems in ways that are socially sustainable. This course introduces students to core technical and socio-technical objectives in responsible AI, with an emphasis on algorithmic fairness, transparency and interpretability, differential privacy, and bias and risk factors for large language models.
 
 This course is sociotechnically grounded. Students will examine how and why machine learning systems can produce harmful or inequitable outcomes, and how different stakeholders (impacted communities, developers, institutions, and regulators) define "responsible" in ways that are sometimes in conflict. Students will learn to evaluate these trade-offs, while thinking carefully about mitigation techniques. There will be a focus on communicating technical results clearly.
 
