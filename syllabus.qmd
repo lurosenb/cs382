@@ -163,7 +163,9 @@ Note that the lab problem sets themselves are **paper handouts only**, given out
 ### **Course Materials:**
 Lecture slides are posted to the [course home page](index.html) after each lecture, linked from the schedule table.
 
-Quiz solutions may be provided at my discretion ahead of the midterm and the final, during office hours. They will not be posted online.
+Quiz solutions may be provided at my discretion ahead of the midterm and the final, ONLY during office hours. They will not be posted online. Do not ask me to post them, please.
+
+To make up for this when preparing for your midterm / final, I will release a set of practice questions that look very much like quiz questions, for you to study with.
 
 ### **Grades and Regrade Requests:**
 I will return grades as quickly as I can, and in any case **within one week** of the work being turned in. Please do not ask me about a grade inside that window.
