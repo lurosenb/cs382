@@ -210,6 +210,7 @@ This is a rough estimate so that you can plan accordingly
 - **Labs:** session attendance, plus roughly 1 to 2 hours meeting with your group during presentation weeks to prepare, and perhaps 1 to 2 more hours working through the problem set on your own as needed.
 - **Lectures/Quizzes:** if you felt lost during a lecture, spending an hour or so going back over that week's slides on your own, or stopping by office hours, will help you succeed on a quiz.
 - **Exams:** I will release a study guide before the midterm and before the final, expect to spend some time with it to be best prepared.
+- **Project:** Early on, minimal (outside of organizing your project group and ideating), but a lot towards the end of the semester. I encourage you to spread it out!
 
 ### **Weather and Cancellations:**
 If class is canceled or delayed because of weather, I will announce it on Piazza and Slack as soon as I can.
