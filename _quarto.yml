@@ -21,6 +21,7 @@ format:
 website:
   site-url: https://lucasrosenblatt.com/cs382
   favicon: favicon.ico
+  google-analytics: "G-DYDFN7Y0ZQ"
   navbar:
     css: styles.css
     title: "Fall 2026"
