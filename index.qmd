@@ -55,7 +55,7 @@ output:
   <tr>
     <td>Week 1 (Sep 10)</td>
     <td><i>No class</i></td>
-    <td><a href="slides/module1/lecture_1.pdf">The "State of Play"</a></td>
+    <td><a href="https://drive.google.com/file/d/1-e_AqwOxwp0XLjwkak09s_LiIYHimmte/view?usp=sharing">The "State of Play"</a></td>
     <td class="lab-col"></td>
     <td></td>
     <td></td>
