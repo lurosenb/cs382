@@ -7,7 +7,8 @@ project:
     - "!labs/00_template_lab_solution.qmd"
   resources:
     - psets/starter_code
-    - .nojekyll          # stop GitHub Pages running the output through Jekyll
+    - widgets            
+    - .nojekyll          
 
 format:
   html:
@@ -37,3 +38,5 @@ website:
         href: labs.html
       - text: "Project"
         href: project.html
+      - text: "Widgets"
+        href: widgets.html

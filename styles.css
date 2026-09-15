@@ -182,3 +182,19 @@ mjx-container[jax="SVG"] > svg {
   transform: rotate(90deg);
   display: inline-block;
 }
+
+/* ── Widgets (widgets.qmd) ──────────────────────────────────────────── */
+.widget-frame {
+  display: block;
+  width: 100%;
+  height: 520px;
+  border: 0;
+  margin: 0.5rem 0 0.25rem;
+  overflow: hidden;
+}
+
+.widget-open {
+  text-align: right;
+  font-size: 0.9em;
+  margin-bottom: 2.5rem;
+}

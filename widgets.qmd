@@ -1,0 +1,68 @@
+---
+title: "**Widgets**"
+output:
+  html_document:
+    css: styles.css
+---
+
+Probability widgets from lecture.
+
+---
+
+## Linearity of Expectation {#linearity}
+
+<iframe class="widget-frame" src="widgets/linearity_widget.html" title="Linearity of expectation widget" scrolling="no"></iframe>
+
+<p class="widget-open"><a href="widgets/linearity_widget.html">Open in its own page</a></p>
+
+---
+
+## Variance {#variance}
+
+<iframe class="widget-frame" src="widgets/variance_widget.html" title="Variance widget" scrolling="no"></iframe>
+
+<p class="widget-open"><a href="widgets/variance_widget.html">Open in its own page</a></p>
+
+---
+
+## Markov's Inequality {#markov}
+
+<iframe class="widget-frame" src="widgets/markov_widget.html" title="Markov's inequality widget" scrolling="no"></iframe>
+
+<p class="widget-open"><a href="widgets/markov_widget.html">Open in its own page</a></p>
+
+---
+
+## The Union Bound {#union}
+
+<iframe class="widget-frame" src="widgets/union_widget.html" title="Union bound widget" scrolling="no"></iframe>
+
+<p class="widget-open"><a href="widgets/union_widget.html">Open in its own page</a></p>
+
+<script>
+(function () {
+  function fit(frame) {
+    var doc;
+    try { doc = frame.contentDocument; } catch (e) { return; }
+    if (!doc || !doc.documentElement) return;
+    var h = Math.ceil(doc.documentElement.getBoundingClientRect().height);
+    if (h > 0) frame.style.height = (h + 2) + 'px';
+  }
+  function watch(frame) {
+    fit(frame);
+    var win;
+    try { win = frame.contentWindow; } catch (e) { return; }
+    if (win && win.ResizeObserver) {
+      new win.ResizeObserver(function () { fit(frame); }).observe(win.document.documentElement);
+    }
+  }
+  var frames = Array.prototype.slice.call(document.querySelectorAll('iframe.widget-frame'));
+  frames.forEach(function (frame) {
+    frame.addEventListener('load', function () { watch(frame); });
+    var doc = null;
+    try { doc = frame.contentDocument; } catch (e) {}
+    if (doc && doc.readyState === 'complete' && doc.location.href !== 'about:blank') watch(frame);
+  });
+  window.addEventListener('resize', function () { frames.forEach(fit); });
+})();
+</script>
