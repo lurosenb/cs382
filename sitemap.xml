@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lucasrosenblatt.com/cs382/syllabus.html</loc>
-    <lastmod>2026-09-15T01:37:12.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucasrosenblatt.com/cs382/psets/hw2.html</loc>
-    <lastmod>2026-09-15T01:37:12.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucasrosenblatt.com/cs382/project.html</loc>
-    <lastmod>2026-09-15T01:37:12.578Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucasrosenblatt.com/cs382/index.html</loc>
-    <lastmod>2026-09-15T01:37:12.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucasrosenblatt.com/cs382/labs.html</loc>
-    <lastmod>2026-09-15T01:37:12.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucasrosenblatt.com/cs382/psets/hw1.html</loc>
-    <lastmod>2026-09-15T01:37:12.578Z</lastmod>
+    <loc>https://lucasrosenblatt.com/cs382/widgets.html</loc>
+    <lastmod>2026-09-15T02:16:27.844Z</lastmod>
   </url>
   <url>
     <loc>https://lucasrosenblatt.com/cs382/psets/hw3.html</loc>
-    <lastmod>2026-09-15T01:37:12.579Z</lastmod>
+    <lastmod>2026-09-15T02:16:27.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucasrosenblatt.com/cs382/psets/hw1.html</loc>
+    <lastmod>2026-09-15T02:16:27.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucasrosenblatt.com/cs382/labs.html</loc>
+    <lastmod>2026-09-15T02:16:27.843Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucasrosenblatt.com/cs382/index.html</loc>
+    <lastmod>2026-09-15T02:16:27.843Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucasrosenblatt.com/cs382/project.html</loc>
+    <lastmod>2026-09-15T02:16:27.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucasrosenblatt.com/cs382/psets/hw2.html</loc>
+    <lastmod>2026-09-15T02:16:27.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucasrosenblatt.com/cs382/syllabus.html</loc>
+    <lastmod>2026-09-15T02:16:27.844Z</lastmod>
   </url>
 </urlset>
