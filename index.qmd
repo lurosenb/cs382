@@ -64,7 +64,7 @@ output:
   <tr>
     <td>Week 2 (Sep 14 and Sep 17)</td>
     <td><a href="https://drive.google.com/file/d/1D0xnZbZ1sc7FDS-RMFYAM76SA-YO0Fqo/view?usp=sharing">Normal Technology, Part 1</a></td>
-    <td><a href="slides/module1/lecture_3.pdf">Normal Technology, Part 2</a></td>
+    <td><a href="https://drive.google.com/file/d/1_xCTpbGD_n21xjDYCuYlEWyDKJxsXyW4/view?usp=sharing">Normal Technology, Part 2</a></td>
     <td class="lab-col"><a href="labs.html">Lab 1 (A)</a></td>
     <td></td>
     <td></td>
