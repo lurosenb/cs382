@@ -88,7 +88,7 @@ output:
     <td><a href="https://drive.google.com/file/d/19-pw0go1tBKPeG6aWL6dkOiaJEbHkoFY/view?usp=sharing">Thresholds and Post-Processing</a></td>
     <td><a href="slides/module2/lecture_7.pdf">Bias Across the ML Pipeline</a></td>
     <td class="lab-col"><a href="labs.html">Lab 3 (A)</a></td>
-    <td><a href="project.html">Partner matching due (Thu, 11:59pm)</a></td>
+    <td></td>
     <td>Quiz 2</td>
   </tr>
 
@@ -101,7 +101,7 @@ output:
     <td><a href="slides/module3/lecture_8.pdf">Data Privacy</a></td>
     <td><a href="slides/module3/lecture_9.pdf">Defining Differential Privacy</a></td>
     <td class="lab-col"><a href="labs.html">Lab 4 (B)</a></td>
-    <td></td>
+    <td><a href="project.html">Partner matching due (Thu, 11:59pm)</a></td>
     <td>Quiz 3 | <a href="psets/hw2.html"><strong>HW2 out</strong></a> | <a href="psets/hw1.html"><strong>HW1 due Oct 9, 5pm</strong></a></td>
   </tr>
 
