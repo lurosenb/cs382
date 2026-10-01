@@ -102,7 +102,7 @@ output:
     <td><a href="slides/module3/lecture_9.pdf">Defining Differential Privacy</a></td>
     <td class="lab-col"><a href="labs.html">Lab 4 (B)</a></td>
     <td><a href="project.html">Partner matching due (Thu, 11:59pm)</a></td>
-    <td>Quiz 3 | <a href="psets/hw2.html"><strong>HW2 out</strong></a> | <a href="psets/hw1.html"><strong>HW1 due Oct 9, 5pm</strong></a></td>
+    <td>Quiz 3 | <a href="psets/hw1.html"><strong>HW1 due Oct 9, 5pm</strong></a></td>
   </tr>
 
   <tr>
@@ -120,7 +120,7 @@ output:
     <td><a href="slides/module3/lecture_11.pdf">Composition and What DP Promises</a></td>
     <td class="lab-col"><i>No lab</i></td>
     <td></td>
-    <td>Quiz 4</td>
+    <td>Quiz 4 | <a href="psets/hw2.html"><strong>HW2 out</strong></a></td>
   </tr>
 
   <tr>
