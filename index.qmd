@@ -86,7 +86,7 @@ output:
   <tr>
     <td>Week 4 (Sep 28 and Oct 1)</td>
     <td><a href="https://drive.google.com/file/d/19-pw0go1tBKPeG6aWL6dkOiaJEbHkoFY/view?usp=sharing">Thresholds and Post-Processing</a></td>
-    <td><a href="slides/module2/lecture_7.pdf">Bias Across the ML Pipeline</a></td>
+    <td><a href="https://drive.google.com/file/d/16Yy77phsN4MsBJS1c3AuhlT7R68gw9BH/view?usp=sharing">Bias Across the ML Pipeline</a></td>
     <td class="lab-col"><a href="labs.html">Lab 3 (A)</a></td>
     <td></td>
     <td>Quiz 2</td>
