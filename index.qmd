@@ -99,7 +99,7 @@ output:
   <tr>
     <td>Week 5 (Oct 5 and Oct 8)</td>
     <td><a href="https://drive.google.com/file/d/1O3zshhtg6b-LQHBCl_PxA9GQ80rzb3C-/view?usp=sharing">Data Privacy</a></td>
-    <td><a href="slides/module3/lecture_9.pdf">Defining Differential Privacy</a></td>
+    <td><a href="https://drive.google.com/file/d/1P6KaIRv8bsX98Gt_hnOOce4VBI8F1isO/view?usp=sharing">Defining Differential Privacy</a></td>
     <td class="lab-col"><a href="labs.html">Lab 4 (B)</a></td>
     <td><a href="project.html">Partner matching due (Thu, 11:59pm)</a></td>
     <td>Quiz 3 | <a href="psets/hw1.html"><strong>HW1 due Oct 9, 5pm</strong></a></td>
