@@ -117,7 +117,7 @@ output:
   <tr>
     <td>Week 7 (Oct 19 and Oct 22)</td>
     <td><a href="https://drive.google.com/file/d/1Z-ar9GPXZ6uMFwHnaXezVCqfbY0pLV3V/view?usp=sharing">The Laplace Mechanism</a></td>
-    <td><a href="slides/module3/lecture_11.pdf">Composition and What DP Promises</a></td>
+    <td><a href="https://drive.google.com/file/d/1-DF9UCPXRW_UndpvlEFgF57NEPlSwHFN/view?usp=sharing">Composition and What DP Promises</a></td>
     <td class="lab-col"><i>No lab</i></td>
     <td></td>
     <td>Quiz 4 | <a href="psets/hw2.html"><strong>HW2 out</strong></a></td>
