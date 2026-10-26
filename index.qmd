@@ -125,7 +125,7 @@ output:
 
   <tr>
     <td>Week 8 (Oct 26 and Oct 29)</td>
-    <td><a href="slides/module3/lecture_12.pdf">DP Synthetic Data</a></td>
+    <td><a href="https://drive.google.com/file/d/1-_1KTGz90ClUCzp7HCiYEOw__CaH23WY/view?usp=sharing">DP Synthetic Data</a></td>
     <td><a href="slides/module3/lecture_13.pdf">Approximate DP and Gaussian Noise</a></td>
     <td class="lab-col"><a href="labs.html">Lab 5 (A)</a></td>
     <td><a href="project.html">Ideation meeting (book a slot)</a></td>
