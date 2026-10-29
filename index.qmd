@@ -126,7 +126,7 @@ output:
   <tr>
     <td>Week 8 (Oct 26 and Oct 29)</td>
     <td><a href="https://drive.google.com/file/d/1-_1KTGz90ClUCzp7HCiYEOw__CaH23WY/view?usp=sharing">DP Synthetic Data</a></td>
-    <td><a href="slides/module3/lecture_13.pdf">Approximate DP and Gaussian Noise</a></td>
+    <td><a href="https://drive.google.com/file/d/1oeGJvIE-kvjiiWvjoicBuQIqHOVykSft/view?usp=sharing">Privacy in Practice</a></td>
     <td class="lab-col"><a href="labs.html">Lab 5 (A)</a></td>
     <td><a href="project.html">Ideation meeting (book a slot)</a></td>
     <td>Quiz 5</td>
@@ -138,7 +138,7 @@ output:
 
   <tr>
     <td>Week 9 (Nov 2 and Nov 5)</td>
-    <td><a href="slides/module3/lecture_14.pdf">Local DP in Practice</a></td>
+    <td><a href="slides/module3/lecture_14.pdf">Approximate DP</a></td>
     <td><a href="slides/module4/lecture_15.pdf">Interpretability and Explainability</a></td>
     <td class="lab-col"><a href="labs.html">Lab 6 (B)</a></td>
     <td><a href="project.html">Proposal due (Mon, 1:10pm)</a></td>
