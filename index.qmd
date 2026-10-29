@@ -141,8 +141,8 @@ output:
     <td><a href="slides/module3/lecture_14.pdf">Approximate DP</a></td>
     <td><a href="slides/module4/lecture_15.pdf">Interpretability and Explainability</a></td>
     <td class="lab-col"><a href="labs.html">Lab 6 (B)</a></td>
-    <td><a href="project.html">Proposal due (Mon, 1:10pm)</a></td>
-    <td>Quiz 6 | <a href="psets/hw3.html"><strong>HW3 out</strong></a> | <a href="psets/hw2.html"><strong>HW2 due Nov 6, 5pm</strong></a></td>
+    <td></td>
+    <td>Quiz 6 | <a href="psets/hw3.html"><strong>HW3 out</strong></a> | <a href="psets/hw2.html"><strong>HW2 due Nov 6, 6pm</strong></a></td>
   </tr>
 
   <tr>
@@ -150,7 +150,7 @@ output:
     <td><a href="slides/module4/lecture_16.pdf">Shapley Values</a></td>
     <td><a href="slides/module4/lecture_17.pdf">SHAP at Scale</a></td>
     <td class="lab-col"><a href="labs.html">Lab 7 (A)</a></td>
-    <td></td>
+    <td><a href="project.html">Proposal due (Mon Nov. 9, 1:10pm)</a></td>
     <td>Quiz 7</td>
   </tr>
 
