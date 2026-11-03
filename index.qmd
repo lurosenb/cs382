@@ -138,7 +138,7 @@ output:
 
   <tr>
     <td>Week 9 (Nov 2 and Nov 5)</td>
-    <td><a href="slides/module3/lecture_14.pdf">Approximate DP</a></td>
+    <td><a href="https://drive.google.com/file/d/1ape_2S6ZRe9b_dEVpDK9Jkm4BgUx5ixd/view?usp=sharing">Approximate DP</a></td>
     <td><a href="slides/module4/lecture_15.pdf">Interpretability and Explainability</a></td>
     <td class="lab-col"><a href="labs.html">Lab 6 (B)</a></td>
     <td></td>
