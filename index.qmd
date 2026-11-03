@@ -139,16 +139,16 @@ output:
   <tr>
     <td>Week 9 (Nov 2 and Nov 5)</td>
     <td><a href="https://drive.google.com/file/d/1ape_2S6ZRe9b_dEVpDK9Jkm4BgUx5ixd/view?usp=sharing">Approximate DP</a></td>
-    <td><a href="slides/module4/lecture_15.pdf">Interpretability and Explainability</a></td>
+    <td><i>HW2 Work Block (Unix Lab)</i></td>
     <td class="lab-col"><a href="labs.html">Lab 6 (B)</a></td>
     <td></td>
-    <td>Quiz 6 | <a href="psets/hw3.html"><strong>HW3 out</strong></a> | <a href="psets/hw2.html"><strong>HW2 due Nov 6, 6pm</strong></a></td>
+    <td>Quiz 6 | <a href="psets/hw2.html"><strong>HW2 due Nov 6, 6pm</strong></a></td>
   </tr>
 
   <tr>
     <td>Week 10 (Nov 9 and Nov 12)</td>
+    <td><a href="slides/module4/lecture_15.pdf">Interpretability and Explainability</a></td>
     <td><a href="slides/module4/lecture_16.pdf">Shapley Values</a></td>
-    <td><a href="slides/module4/lecture_17.pdf">SHAP at Scale</a></td>
     <td class="lab-col"><a href="labs.html">Lab 7 (A)</a></td>
     <td><a href="project.html">Proposal due (Mon Nov. 9, 1:10pm)</a></td>
     <td>Quiz 7</td>
@@ -156,20 +156,20 @@ output:
 
   <tr>
     <td>Week 11 (Nov 16 and Nov 19)</td>
+    <td><a href="slides/module4/lecture_17.pdf">SHAP at Scale</a></td>
     <td><a href="slides/module4/lecture_18.pdf">Auditing Ad Delivery</a></td>
-    <td><a href="slides/module4/lecture_19.pdf">Transparency and the Law</a></td>
     <td class="lab-col"><a href="labs.html">Lab 8 (B)</a></td>
-    <td><a href="project.html">Initial results due (Mon, 1:10pm) | Results meeting (book a slot)</a></td>
+    <td><a href="project.html">Initial results due (Thu Nov 19, 1:10pm) | Results meeting (book a slot)</a></td>
     <td>Quiz 8</td>
   </tr>
 
   <tr>
     <td>Week 12 (Nov 23 and Nov 26)</td>
-    <td><a href="slides/module4/lecture_20.pdf">Probing, Patching, and Circuits</a></td>
+    <td><a href="slides/module4/lecture_19.pdf">Transparency and the Law</a></td>
     <td><i>Thanksgiving Recess (No Class)</i></td>
     <td class="lab-col"><a href="labs.html">Lab 9 (A)</a></td>
-    <td></td>
-    <td>Quiz 9 | <a href="psets/hw3.html"><strong>HW3 due Nov 24, 5pm</strong></a></td>
+    <td><a href="project.html">Results meeting deadline (Mon, EOD)</a></td>
+    <td>Quiz 9 | <a href="psets/hw3.html"><strong>HW3 out</strong></a></td>
   </tr>
 
   <tr class="section-header">
@@ -178,11 +178,11 @@ output:
 
   <tr>
     <td>Week 13 (Nov 30 and Dec 3)</td>
-    <td><a href="slides/module5/lecture_20.pdf">R/AI and LLMs (Part 1)</a></td>
-    <td><a href="slides/module5/lecture_21.pdf">R/AI and LLMs (Part 2)</a></td>
+    <td><a href="slides/module4/lecture_20.pdf">Probing, Patching, and Circuits</a></td>
+    <td><a href="slides/module5/lecture_21.pdf">R/AI and LLMs</a></td>
     <td class="lab-col"><a href="labs.html">Lab 10 (B)</a></td>
     <td></td>
-    <td>Quiz 10</td>
+    <td>Quiz 10 | <a href="psets/hw3.html"><strong>HW3 due Dec 4, 5pm</strong></a></td>
   </tr>
 
   <tr>

@@ -14,8 +14,8 @@ output:
     <td>Time to complete</td>
   </tr>
   <tr>
-    <td>Monday, November 2, at the end of lecture</td>
-    <td>Tuesday, November 24, 5:00pm</td>
-    <td>22 days (~3.1 weeks)</td>
+    <td>Monday, November 23, at the end of lecture</td>
+    <td>Friday, December 4, 5:00pm</td>
+    <td>11 days (~1.6 weeks)</td>
   </tr>
 </table>

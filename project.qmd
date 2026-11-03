@@ -55,7 +55,7 @@ If your project needs more compute than your laptop, come talk to me. The Willia
   </tr>
   <tr>
     <td>Proposal</td>
-    <td>Week 9 (Mon Nov 2, 1:10pm)</td>
+    <td>Week 10 (Mon Nov 9, 1:10pm)</td>
     <td>One-page proposal: research question, dataset, proposed approach</td>
   </tr>
 
@@ -64,13 +64,13 @@ If your project needs more compute than your laptop, come talk to me. The Willia
   </tr>
   <tr>
     <td>Initial results</td>
-    <td>Week 11 (Mon Nov 16, 1:10pm)</td>
+    <td>Week 11 (Thu Nov 19, 1:10pm)</td>
     <td>GitHub repo up to date; preliminary experiment results/writing (~2 pages)</td>
   </tr>
   <tr>
     <td>Results meeting <em>(required)</em></td>
-    <td>Week 11 (Nov 16 to Nov 19)</td>
-    <td>Book a 15-minute slot as a pair; experiment and figure list approved here</td>
+    <td>Weeks 11-12 (Nov 19 to Mon Nov 23, EOD)</td>
+    <td>Book a 15-minute slot as a pair; <strong>must be held by EOD Mon Nov 23</strong>; experiment and figure list approved here</td>
   </tr>
 
   <tr class="section-header">
@@ -88,9 +88,9 @@ If your project needs more compute than your laptop, come talk to me. The Willia
   </tr>
 </table>
 
-**Deadline times.** Anything handed in at a class meeting is due at **1:10pm**, the start of lecture. The two required meetings are not deadlines per se, you should book them anywhere inside the week listed. Failure to do so may result in a deduction to the milestone grade.
+**Deadline times.** Anything handed in at a class meeting is due at **1:10pm**, the start of lecture. The ideation meeting was not a deadline per se; it could be booked anywhere inside the week listed. The **results meeting is different: it must be held by end of day on Monday, November 23**, the Monday before Thanksgiving recess. Failure to meet these may result in a deduction to the milestone grade.
 
-**Booking the required meetings:** both meetings use the same Google appointment schedule as regular office hours, linked on Canvas and in Slack. You will book one 15-minute slot as a project pair inside the week listed above. These meetings are a requirement of the project, they are not optional.
+**Booking the required meetings:** both meetings use the same Google appointment schedule as regular office hours, linked on Canvas and in Slack. You book one **15-minute** slot as a project pair. The results meeting must be **held by EOD Monday, November 23**, and there are only a limited number of bookable slots between the initial-results deadline and that cutoff, so book it as early as you can. These meetings are a requirement of the project, they are not optional.
 
 **There are no extensions on project milestones.** The schedule has meetings attached to it, so a late milestone pushes everything downstream out of alignment for you, your partner, and me.
 
@@ -100,7 +100,7 @@ Note that there is no "full draft" submission with feedback. I will read the fin
 
 ## The Ideation Meeting
 
-Come to this meeting with **two potential project ideas**, or, if you are not that far along, **two areas** within the broad responsible AI space where you might like to work. This is a conversation. The goal is to leave with a direction concrete enough that you can write it up as a proposal, which is due the following Monday.
+Come to this meeting with **two potential project ideas**, or, if you are not that far along, **two areas** within the broad responsible AI space where you might like to work. This is a conversation. The goal is to leave with a direction concrete enough that you can write it up as a proposal, which is due on **Monday, November 9**.
 
 It is worth knowing where we will be in the course by then. At that point we will have finished **fairness** and covered roughly **half of privacy**. We will not have touched **interpretability** at all, and **LLMs** will have come up only lightly, back in Module 1. Projects in those areas are entirely welcome. Just expect that I will be more active in shaping an interpretability or LLM idea into a workable proposal than I would be for a fairness or privacy one, simply because you will have less footing there so far.
 
@@ -167,7 +167,7 @@ Students will produce a 4-page article formatted as a workshop paper for an ML c
 
 ### Scope: Experiments and Figures
 
-Projects are limited to **3-5 experiments**, with **3-5 associated plots or figures**. The specific experiments and figures will be approved by the instructor at the Week 11 results meeting.
+Projects are limited to **3-5 experiments**, with **3-5 associated plots or figures**. The specific experiments and figures will be approved by the instructor at the results meeting.
 
 Both ends of that range are deliberate. Three experiments is a good target for a credible ML paper. But too many experiments distract from the overall message, and bury the reader in results such that they may miss the point. Working inside this range forces a choice about which questions are *most* interesting, and should help you structure your exploration. Note that I am much more likely to approve you doing only **1 or 2 experiments** that are complex and interesting than I am to approve you doing more than 5.
 
