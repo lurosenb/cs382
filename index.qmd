@@ -147,7 +147,7 @@ output:
 
   <tr>
     <td>Week 10 (Nov 9 and Nov 12)</td>
-    <td><a href="slides/module4/lecture_15.pdf">Interpretability and Explainability</a></td>
+    <td><a href="https://drive.google.com/file/d/1kIvZdMpBDCD2zLMB-SEo7aPz5rqVanT_/view?usp=sharing">Interpretability and Explainability</a></td>
     <td><a href="slides/module4/lecture_16.pdf">Shapley Values</a></td>
     <td class="lab-col"><a href="labs.html">Lab 7 (A)</a></td>
     <td><a href="project.html">Proposal due (Mon Nov. 9, 1:10pm)</a></td>
