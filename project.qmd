@@ -64,13 +64,13 @@ If your project needs more compute than your laptop, come talk to me. The Willia
   </tr>
   <tr>
     <td>Initial results</td>
-    <td>Week 11 (Thu Nov 19, 1:10pm)</td>
+    <td>Week 11 (Sun Nov 22, 11:59pm)</td>
     <td>GitHub repo up to date; preliminary experiment results/writing (~2 pages)</td>
   </tr>
   <tr>
     <td>Results meeting <em>(required)</em></td>
-    <td>Weeks 11-12 (Nov 19 to Mon Nov 23, EOD)</td>
-    <td>Book a 15-minute slot as a pair; <strong>must be held by EOD Mon Nov 23</strong>; experiment and figure list approved here</td>
+    <td>Week 12 (Mon Nov 23)</td>
+    <td>Book a 15-minute slot as a pair; <strong>all results meetings are held Mon Nov 23</strong>; experiment and figure list approved here</td>
   </tr>
 
   <tr class="section-header">
@@ -88,9 +88,9 @@ If your project needs more compute than your laptop, come talk to me. The Willia
   </tr>
 </table>
 
-**Deadline times.** Anything handed in at a class meeting is due at **1:10pm**, the start of lecture. The ideation meeting was not a deadline per se; it could be booked anywhere inside the week listed. The **results meeting is different: it must be held by end of day on Monday, November 23**, the Monday before Thanksgiving recess. Failure to meet these may result in a deduction to the milestone grade.
+**Deadline times.** Anything handed in at a class meeting is due at **1:10pm**, the start of lecture. The ideation meeting was not a deadline per se; it could be booked anywhere inside the week listed. The **results meetings all take place on Monday, November 23**, the Monday before Thanksgiving recess; you pick a slot within that day. Failure to meet these may result in a deduction to the milestone grade.
 
-**Booking the required meetings:** both meetings use the same Google appointment schedule as regular office hours, linked on Canvas and in Slack. You book one **15-minute** slot as a project pair. The results meeting must be **held by EOD Monday, November 23**, and there are only a limited number of bookable slots between the initial-results deadline and that cutoff, so book it as early as you can. These meetings are a requirement of the project, they are not optional.
+**Booking the required meetings:** both meetings use the same Google appointment schedule as regular office hours, linked on Canvas and in Slack. You book one **15-minute** slot as a project pair. All results meetings are held on **Monday, November 23**, so the slots for that day are limited and will fill; book yours as early as you can. These meetings are a requirement of the project, they are not optional.
 
 **There are no extensions on project milestones.** The schedule has meetings attached to it, so a late milestone pushes everything downstream out of alignment for you, your partner, and me.
 

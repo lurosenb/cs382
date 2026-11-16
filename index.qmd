@@ -159,7 +159,7 @@ output:
     <td><a href="slides/module4/lecture_17.pdf">SHAP at Scale</a></td>
     <td><a href="slides/module4/lecture_18.pdf">Auditing Ad Delivery</a></td>
     <td class="lab-col"><a href="labs.html">Lab 8 (B)</a></td>
-    <td><a href="project.html">Initial results due (Thu Nov 19, 1:10pm) | Results meeting (book a slot)</a></td>
+    <td><a href="project.html">Initial results due (Sun Nov 22, 11:59pm)</a></td>
     <td>Quiz 8</td>
   </tr>
 
@@ -168,7 +168,7 @@ output:
     <td><a href="slides/module4/lecture_19.pdf">Transparency and the Law</a></td>
     <td><i>Thanksgiving Recess (No Class)</i></td>
     <td class="lab-col"><a href="labs.html">Lab 9 (A)</a></td>
-    <td><a href="project.html">Results meeting deadline (Mon, EOD)</a></td>
+    <td><a href="project.html">Results meetings (Mon Nov 23, book a slot)</a></td>
     <td>Quiz 9 | <a href="psets/hw3.html"><strong>HW3 out</strong></a></td>
   </tr>
 
