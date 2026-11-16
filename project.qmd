@@ -157,7 +157,7 @@ exp_***.py             # additional experiment scripts
 env.yaml               # conda environment specification
 ```
 
-Code must be clean, well-commented, and reproducible after correct Conda environment setup. A GitHub template is available for students to use as a starting point, with templated files and already functional example imports.
+Code must be clean, well-commented, and reproducible after correct Conda environment setup.
 
 ---
 
