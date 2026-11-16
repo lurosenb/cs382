@@ -151,7 +151,7 @@
     "href": "project.html#deliverable-1-github-repository",
     "title": "Research Project",
     "section": "Deliverable 1: GitHub Repository",
-    "text": "Deliverable 1: GitHub Repository\nStudents will create and maintain a GitHub repository with the following structure:\nREADME.md              # research question and proposed approach\ndata/                  # data and data-loading code\nsrc/                   # python package\n  utils/               # helper code\n  &lt;project_name&gt;/      # core project module\n  metrics/             # metrics and plotting code\nexp_runner.py          # main experiment runner\nexp_***.py             # additional experiment scripts\nenv.yaml               # conda environment specification\nCode must be clean, well-commented, and reproducible after correct Conda environment setup. A GitHub template is available for students to use as a starting point, with templated files and already functional example imports."
+    "text": "Deliverable 1: GitHub Repository\nStudents will create and maintain a GitHub repository with the following structure:\nREADME.md              # research question and proposed approach\ndata/                  # data and data-loading code\nsrc/                   # python package\n  utils/               # helper code\n  &lt;project_name&gt;/      # core project module\n  metrics/             # metrics and plotting code\nexp_runner.py          # main experiment runner\nexp_***.py             # additional experiment scripts\nenv.yaml               # conda environment specification\nCode must be clean, well-commented, and reproducible after correct Conda environment setup."
   },
   {
     "objectID": "project.html#deliverable-2-workshop-paper",
