@@ -29,7 +29,7 @@ output:
 
   **Quizzes**: Short quizzes on Mondays covering the prior week's lectures or a recent homework. 10 total, 1 point each and additive, and you start with 1 point banked, so you can miss one and still earn full credit.
 
-  **Exams**: Midterm in class on Thu Oct 15. We will vote to decide whether the final is in the December exam period or in the last lecture block on Thu Dec 10.
+  **Exams**: Midterm in class on Thu Oct 15. Final in class on Thu Dec 10, in the last lecture block.
 
   **Project**: Semester-long project in groups of two. See the [Project](project.html) page.
 
@@ -165,35 +165,31 @@ output:
 
   <tr>
     <td>Week 12 (Nov 23 and Nov 26)</td>
-    <td><a href="slides/module4/lecture_19.pdf">Transparency and the Law</a></td>
+    <td><a href="slides/module4/lecture_19.pdf">Mechanistic Interpretability</a></td>
     <td><i>Thanksgiving Recess (No Class)</i></td>
     <td class="lab-col"><a href="labs.html">Lab 9 (A)</a></td>
     <td><a href="project.html">Results meetings (Mon Nov 23, book a slot)</a></td>
     <td>Quiz 9 | <a href="psets/hw3.html"><strong>HW3 out</strong></a></td>
   </tr>
 
-  <tr class="section-header">
-    <td colspan="6">Module 5: LLM Risks and the State of AI Research</td>
-  </tr>
-
   <tr>
     <td>Week 13 (Nov 30 and Dec 3)</td>
-    <td><a href="slides/module4/lecture_20.pdf">Probing, Patching, and Circuits</a></td>
+    <td><a href="slides/module4/lecture_20.pdf">Guest lecture (Mech. interpret)</a></td>
     <td><a href="slides/module5/lecture_21.pdf">R/AI and LLMs</a></td>
     <td class="lab-col"><a href="labs.html">Lab 10 (B)</a></td>
     <td></td>
-    <td>Quiz 10 | <a href="psets/hw3.html"><strong>HW3 due Dec 4, 5pm</strong></a></td>
+    <td>Quiz 10 | <a href="psets/hw3.html"><strong>HW3 due Dec 6, 5pm</strong></a></td>
   </tr>
 
   <tr>
     <td>Week 14 (Dec 7 and Dec 10)</td>
     <td><strong><i>Project Presentations</i></strong></td>
-    <td><strong><i>Final Exam (if class votes for this slot)</i></strong></td>
-    <td class="lab-col"><i>No lab</i></td>
+    <td><strong><i>Final Exam</i></strong></td>
+    <td class="lab-col"><a href="labs.html">Final review</a></td>
     <td><a href="project.html">Presentations (Mon, in class) | Final paper due (Fri Dec 11, 11:59pm)</a></td>
     <td></td>
   </tr>
 
 </table>
 
-<small>In the Lab column, **(A)** marks a problem week and **(B)** a presentation week. Three Mondays have no lab: Oct 12 (reading period), Oct 19 (midterm solutions), and Dec 7 (project presentations run long). See the [Labs](labs.html) page.</small>
+<small>In the Lab column, **(A)** marks a problem week and **(B)** a presentation week. Two Mondays have no lab: Oct 12 (reading period) and Oct 19 (midterm solutions). The last session, Dec 7, is not a numbered lab: project presentations run into it, and the rest is review for the final. See the [Labs](labs.html) page.</small>
