@@ -156,8 +156,8 @@ output:
 
   <tr>
     <td>Week 11 (Nov 16 and Nov 19)</td>
-    <td><a href="slides/module4/lecture_17.pdf">SHAP at Scale</a></td>
-    <td><a href="slides/module4/lecture_18.pdf">Auditing Ad Delivery</a></td>
+    <td><a href="https://drive.google.com/file/d/1puvB6dWhEjavr5TgtXqepBDTLvntJDBm/view?usp=sharing">SHAP at Scale</a></td>
+    <td><a href="https://drive.google.com/file/d/1CoiXmLiCjZH8fx0SXvK0Sc19YXS_0Z8R/view?usp=sharing">Auditing Ad Delivery</a></td>
     <td class="lab-col"><a href="labs.html">Lab 8 (B)</a></td>
     <td><a href="project.html">Initial results due (Sun Nov 22, 11:59pm)</a></td>
     <td>Quiz 8</td>
