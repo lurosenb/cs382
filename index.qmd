@@ -187,7 +187,7 @@ output:
     <td><strong><i>Final Exam</i></strong></td>
     <td class="lab-col"><a href="labs.html">Final review</a></td>
     <td><a href="project.html">Presentations (Mon, in class) | Final paper due (Fri Dec 11, 11:59pm)</a></td>
-    <td><a href="psets/hw3.html"><strong>HW3 due Dec 7, 5pm</strong></a></td>
+    <td><a href="psets/hw3.html"><strong>HW3 due Dec 7</strong></a></td>
   </tr>
 
 </table>
